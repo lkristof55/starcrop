@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not surveyed · Starcrop</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/site.css">
+<style>
+  body{min-height:100vh}
+  .lost{position:relative;z-index:3;padding:120px 64px 0;max-width:720px}
+  .lost h1{font-size:72px}
+  .lost p{margin-top:22px;font:400 18px/1.45 var(--body);max-width:44ch}
+  .lost p.over{margin-top:0;font:500 11px/1 var(--mono);letter-spacing:.14em;max-width:none}
+  .lost a.back{display:inline-flex;margin-top:28px;background:var(--blueline);color:var(--diazo);font:900 15px/1 var(--display);letter-spacing:.08em;padding:16px 18px;text-decoration:none}
+  .plot{position:fixed;right:6vw;bottom:170px;width:min(560px,48vw);z-index:2}
+  .foot.tb404{position:fixed;right:var(--inner);bottom:var(--inner);margin:0;z-index:4}
+  @media (max-width:768px){.lost{padding:90px 28px 0}.lost h1{font-size:34px}.lost p{font-size:15px}.plot{position:relative;right:auto;bottom:auto;width:86%;margin:40px auto 0;display:block}.foot.tb404{position:relative;right:auto;bottom:auto;width:calc(100% - 32px);margin:24px 16px 16px;grid-template-columns:1fr 120px}}
+</style>
+</head>
+<body>
+<div class="paper" aria-hidden="true"></div>
+<div class="sheetmask" aria-hidden="true"></div>
+<div class="frame" aria-hidden="true"></div>
+<header class="nav"><a class="brand" href="/"><img class="mark" src="/mark.svg" alt="" width="30" height="30"><span class="word">STARCROP</span></a><span class="tick">$STCROP</span><span class="sp"></span></header>
+<main class="lost">
+  <p class="over"><span>Sheet 404</span><i></i><span>Unsurveyed plot</span></p>
+  <h1>Nothing<br>planted<br><span class="p">here.</span></h1>
+  <p>This page was never surveyed. No rows, no roots, no stars. Just the scarecrow and a plot nobody's walked.</p>
+  <a class="back" href="/">BACK TO SHEET 1</a>
+</main>
+<svg class="plot" viewBox="0 0 560 360" aria-label="An empty plot with the Starcrop scarecrow standing alone" role="img">
+  <g fill="none" stroke="#1C3A8C" stroke-width="1.2">
+    <path d="M40 220 L300 120 L540 190 L280 300 Z" fill="#F6F7F3"/>
+    <path d="M40 220 L40 250 L280 330 L540 220 L540 190"/>
+    <path d="M280 300 L280 330"/>
+    <path d="M40 232 L280 312 L540 202" stroke="#9FD3E6"/>
+    <path d="M40 241 L280 321 L540 211" stroke="#9FD3E6"/>
+    <path d="M60 212 L300 132 M100 198 L336 131 M140 184 L372 141" stroke="#9FD3E6" stroke-dasharray="4 4"/>
+  </g>
+  <g transform="translate(262 92) scale(1.25)"><path fill="#1C3A8C" d="M27 22 L27 14 L39 14 L41.5 4 L50 7.5 L58.5 4 L61 14 L73 14 L73 22 L52.8 22 L60 37.2 L83.3 40.2 L66.2 56.3 L70.6 79.3 L55.5 71 L55.5 88 L50 97 L44.5 88 L44.5 71 L29.4 79.3 L33.8 56.3 L16.7 40.2 L40 37.2 L47.2 22Z"/><path fill="#F2367E" d="M44.5 78H55.5V83.5H44.5Z M55.5 78.2L68 75L65 80.5L55.5 81Z M55.5 81L66.5 85L62.5 88.5L55.5 83.5Z"/></g>
+  <g font-family="Overpass Mono, monospace" font-size="11" fill="#1C3A8C">
+    <path d="M40 262 L280 342" stroke="#1C3A8C" stroke-width="1"/><path d="M36 258l8 8M276 338l8 8" stroke="#1C3A8C" stroke-width="1.6"/>
+    <text x="140" y="318" transform="rotate(18 140 318)">0 ACCOUNTS · 0 FURROWS</text>
+    <text x="330" y="80">SCALE FIGURE: STARCROP</text>
+  </g>
+</svg>
+<footer class="foot tb404" aria-hidden="true">
+  <div class="fcell"><div class="k">Project</div><div class="v name">STARCROP ($STCROP)</div></div>
+  <div class="fcell"><div class="k">Sheet</div><div class="v">404 · NOT IN SET</div></div>
+  <div class="fcell"><div class="k">Note</div><div class="v">Public GitHub data only. No keys, no wallets, no promises.</div></div>
+  <div class="fcell"><div class="k">Verdict</div><div class="v">UNSURVEYED</div></div>
+</footer>
+</body>
+</html>

@@ -249,6 +249,17 @@ The tests also cover malformed input, an unknown mint, a mint with no GitHub lin
 
 starcrop reads the star edges from the stargazer's side, finds the stargazers by birth-time clustering and the id clock, and can start from a Solana mint.
 
+## The live app
+
+[`app/`](app/README.md) is the complete source of [starcrop.netlify.app](https://starcrop.netlify.app): the site (three.js drawings of the recorded farm, a survey form) and its Netlify Functions backend (`/api/report`, `/api/fields`, `/api/recent`, `/api/health`, and a scheduled survey every 20 min). The functions import this library from `src/`. The app is private to this repo (not part of the npm package) and has its own tests and CI job.
+
+```sh
+cd app && npm ci && npm test && npm run build
+GITHUB_TOKEN=$(gh auth token) npm run dev      # http://localhost:8888
+```
+
+To deploy your own copy, create a Netlify site from this repo (the root `netlify.toml` builds `app/`) and set `GITHUB_TOKEN` (required) and `HELIUS_API_KEY` (recommended). Details, env vars and costs are in [app/README.md](app/README.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

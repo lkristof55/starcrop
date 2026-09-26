@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1000" height="1000">
+  <title>Starcrop</title>
+  <!-- Starcrop mark: a five-point star with its arms out, a farmer's hat and a survey stake. The scarecrow is a planted star. -->
+  <!-- Closed shapes only; no strokes. Extrude #mark at depth 10, #flag at depth 13 (it wraps the stake). -->
+  <path id="mark" fill="#1C3A8C" d="M27 22 L27 14 L39 14 L41.5 4 L50 7.5 L58.5 4 L61 14 L73 14 L73 22 L52.8 22 L60 37.2 L83.3 40.2 L66.2 56.3 L70.6 79.3 L55.5 71 L55.5 88 L50 97 L44.5 88 L44.5 71 L29.4 79.3 L33.8 56.3 L16.7 40.2 L40 37.2 L47.2 22Z"/>
+  <path id="flag" fill="#F2367E" d="M44.5 78H55.5V83.5H44.5Z M55.5 78.2L68 75L65 80.5L55.5 81Z M55.5 81L66.5 85L62.5 88.5L55.5 83.5Z"/>
+</svg>

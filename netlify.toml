@@ -1,0 +1,14 @@
+# Netlify builds the app in app/ (site + functions); the library at the repo root is imported by the functions.
+# publish and functions are relative to base. The scheduled survey declares its own schedule in
+# app/netlify/functions/survey.mjs (config.schedule = '*/20 * * * *').
+[build]
+  base = "app"
+  command = "npm run build"
+  publish = "site/dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Starcrop ($STCROP): real stars grow. These were planted.</title>
+<meta name="description" content="Starcrop tells grown GitHub stars from planted ones, after GitHub hid the stargazers. Paste a pump.fun mint, a GitHub URL or owner/repo and get a crop report in about 5 s.">
+<meta name="theme-color" content="#ECEEEA">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Starcrop ($STCROP): real stars grow. These were planted.">
+<meta property="og:description" content="A crop report for the repo behind any dev coin. Reverse stargazing from the side GitHub left public. npx starcrop owner/repo">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Starcrop ($STCROP)">
+<meta name="twitter:description" content="Real stars grow. These were planted. A crop report for the repo behind any dev coin.">
+<meta name="twitter:image" content="/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/zalando-sans-expanded-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/overpass-mono-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/geologica-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/site.css">
+</head>
+<body>
+<div class="paper" aria-hidden="true"></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+<svg id="dims" aria-hidden="true"></svg>
+<div class="sheetmask" aria-hidden="true"></div>
+<div class="frame" aria-hidden="true"></div>
+<div class="zones" id="zones" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#plat" aria-label="Starcrop, back to sheet 1">
+    <img class="mark" src="/mark.svg" alt="" width="30" height="30">
+    <span class="word">STARCROP</span>
+  </a>
+  <span class="tick">$STCROP</span>
+  <span class="sp"></span>
+  <nav class="links" aria-label="Sheets">
+    <a href="#survey">Survey</a><a href="#closed">Method</a><a href="#bench">Bench</a><a href="#repo">Repo</a>
+  </nav>
+  <button class="sound" id="sound" type="button" aria-pressed="false">SOUND: OFF</button>
+  <span class="ca" id="ca" title="The token has not launched. The contract address appears here at launch.">CA · SOON</span>
+  <button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="sheetlist">SHEETS</button>
+  <ol class="sheetlist" id="sheetlist" hidden>
+    <li><a href="#plat">1 · Plat</a></li><li><a href="#closed">2 · The closed side</a></li><li><a href="#otherend">3 · The other end</a></li>
+    <li><a href="#idclock">4 · The id clock</a></li><li><a href="#row">5 · The row</a></li><li><a href="#survey">6 · Survey</a></li><li><a href="#bench">7 · Bench mark</a></li>
+  </ol>
+</header>
+
+<main id="sheets">
+  <!-- SHEET 1 · PLAT -->
+  <section class="sheet s1" id="plat" data-sheet="0" aria-labelledby="h1">
+    <div class="thesis">
+      <p class="over"><span>Sheet 1 of 7</span><i></i><span>Crop report</span></p>
+      <h1 id="h1">Real stars<br>grow.<br>These<br class="d"> were<br><span class="p">planted.</span></h1>
+      <p class="lede">GitHub hid who starred your repo on June&nbsp;30. It didn't hide what they starred. <b>Starcrop</b> walks the field from the stargazers' side and files a crop report on the repo behind any dev coin.</p>
+      <div class="cli"><code>npx starcrop owner/repo</code><button type="button" class="copy" data-copy="npx starcrop owner/repo">COPY</button></div>
+    </div>
+    <div class="legend">
+      <div><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M13 3l2.4 5.3 5.6.7-4.2 3.8 1.2 5.6L13 15.6 8 18.4l1.2-5.6L5 9l5.6-.7z" fill="#1C3A8C"/><rect x="12.3" y="15" width="1.4" height="10" fill="#1C3A8C"/></svg>One star,<br>one account</div>
+      <div><svg viewBox="0 0 26 26" aria-hidden="true"><rect x="0" y="6" width="26" height="1.4" fill="#1C3A8C"/><rect x="12.2" y="6" width="1.8" height="14" fill="#1C3A8C"/><circle cx="13.1" cy="20" r="2.6" fill="#1C3A8C"/></svg>Root = age<br>at planting</div>
+      <div><svg viewBox="0 0 26 26" aria-hidden="true"><defs><pattern id="lh" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="2" height="5" fill="#F2367E"/></pattern></defs><rect x="1" y="1" width="24" height="24" fill="url(#lh)" stroke="#1C3A8C"/></svg>Suspect<br>band</div>
+      <div class="pullhint"><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M13 24V6M7 11l6-6 6 6" fill="none" stroke="#1C3A8C" stroke-width="1.6"/></svg><span>Pull test:<br><span class="pt-d">drag a stalk up</span><span class="pt-m">tap a stalk</span></span></div>
+    </div>
+    <p class="legal">Public GitHub data only. A pattern, not an accusation: a repo can be starred by a farm without asking for it.</p>
+
+    <form class="tblock" id="tb" autocomplete="off" novalidate>
+      <div class="c"><div class="k">Project</div><div class="v name">STARCROP ($STCROP)</div></div>
+      <div class="c"><div class="k">Sheet</div><div class="v">1 / 7 · PLAT</div></div>
+      <div class="c"><div class="k">Drawing · crop report</div><div class="v" id="tb-repo">AutocratGirder/ClashDesk</div></div>
+      <div class="c"><div class="k" id="tb-score">Verdict · 14 / 17</div><div class="stamp planted" id="tb-verdict">PLANTED</div></div>
+      <div class="c tb-legal show-m" id="tb-legal"><div class="v">Public GitHub data only. A pattern, not an accusation.</div></div>
+      <div class="c hide-m"><div class="k" id="tb-when-k">Surveyed</div><div class="v" id="tb-when">2026-09-25 12:55Z · RECORDED · 30 core + 4 search calls</div></div>
+      <div class="c hide-m"><div class="k">Checked by</div><div class="v">starcrop v0.1</div></div>
+      <div class="c form">
+        <label for="q1"><span class="k">Survey a repo</span>
+          <span class="in"><input id="q1" name="q" type="text" spellcheck="false" placeholder="pump.fun mint, github url or owner/repo" aria-describedby="parse1"><span aria-hidden="true">↵</span></span>
+          <span class="parse" id="parse1" aria-live="polite"></span>
+        </label>
+        <button type="submit">SURVEY<small>~5 s<span class="hide-m"> · read-only</span></small></button>
+      </div>
+    </form>
+  </section>
+
+  <!-- SHEET 2 · THE CLOSED SIDE -->
+  <section class="sheet pinned" id="closed" data-sheet="1" aria-labelledby="h2-2">
+    <div class="pin"><div class="col">
+      <p class="over"><span>Sheet 2 of 7</span><i></i><span>The closed side</span></p>
+      <h2 id="h2-2" class="rule">GitHub closed<br>this side.</h2>
+      <p class="deck">Since June&nbsp;30 the stargazer list answers <b>404</b> to anyone who isn't an admin. Every star checker that read it went blind.</p>
+      <figure class="code" data-title="recorded 2026-09-25 12:49Z · AutocratGirder/ClashDesk">
+        <pre id="closed-code"></pre>
+      </figure>
+      <p class="note">Source: <a href="https://github.blog/changelog/2026-06-30-upcoming-access-restrictions-to-public-api-endpoints-and-ui-views/" target="_blank" rel="noopener">GitHub changelog, 2026-06-30</a>. The drawing <span class="pt-d">on the right</span><span class="pt-m">below</span> is the repo as GitHub shows it now: a star count and a door that won't open.</p>
+    </div></div>
+  </section>
+
+  <!-- SHEET 3 · THE OTHER END -->
+  <section class="sheet pinned" id="otherend" data-sheet="2" aria-labelledby="h2-3">
+    <div class="pin"><div class="col">
+      <p class="over"><span>Sheet 3 of 7</span><i></i><span>The other end</span></p>
+      <h2 id="h2-3" class="rule">It didn't hide<br>what they<br>starred.</h2>
+      <p class="deck">Every star is an edge with two ends. GitHub shut the repo's end. The stargazer's end still answers, with the second it was planted.</p>
+      <figure class="code" data-title="the open door · one call per candidate">
+        <pre id="door-code"></pre>
+      </figure>
+      <p class="note">Candidates come through doors a farm can't close cheaply. Plan view, <span class="pt-d">right</span><span class="pt-m">below</span>: <span id="doors-list"></span></p>
+    </div></div>
+  </section>
+
+  <!-- SHEET 4 · THE ID CLOCK -->
+  <section class="sheet pinned" id="idclock" data-sheet="3" aria-labelledby="h2-4">
+    <div class="pin"><div class="col">
+      <p class="over"><span>Sheet 4 of 7</span><i></i><span>The id clock</span></p>
+      <h2 id="h2-4" class="rule">User ids<br>are a clock.</h2>
+      <p class="deck">GitHub hands out user ids in signup order. Between two accounts whose birth we know, an id becomes a time.</p>
+      <p class="formula" aria-label="t equals t a plus (id minus id a) times (t b minus t a) over (id b minus id a)"><i>t</i> = <i>t</i><sub>a</sub> + (id − id<sub>a</sub>) · (<i>t</i><sub>b</sub> − <i>t</i><sub>a</sub>) / (id<sub>b</sub> − id<sub>a</sub>)</p>
+      <figure class="code" id="idclock-fig" data-title="src/idclock">
+        <pre id="idclock-code"></pre>
+      </figure>
+      <p class="note" id="idclock-note"></p>
+    </div></div>
+  </section>
+
+  <!-- SHEET 5 · THE ROW -->
+  <section class="sheet pinned" id="row" data-sheet="4" aria-labelledby="h2-5">
+    <div class="pin"><div class="col wide">
+      <p class="over"><span>Sheet 5 of 7</span><i></i><span>The row</span></p>
+      <h2 id="h2-5" class="rule">That's not<br>a following.<br><span class="p">That's a row.</span></h2>
+      <table class="schedule" id="schedule-5">
+        <caption class="k">Signals schedule · <span id="sched-repo"></span></caption>
+        <thead><tr><th>Signal · door</th><th>Measured</th><th>Fired</th><th>Wt</th></tr></thead>
+        <tbody></tbody>
+        <tfoot><tr><td colspan="4" id="sched-foot"></td></tr></tfoot>
+      </table>
+    </div></div>
+  </section>
+
+  <!-- SHEET 6 · SURVEY -->
+  <section class="sheet flow" id="survey" data-sheet="5" aria-labelledby="h2-6">
+    <div class="col survey">
+      <p class="over"><span>Sheet 6 of 7</span><i></i><span>Survey</span></p>
+      <h2 id="h2-6" class="rule">Survey a repo.</h2>
+      <form class="sform" id="sf" autocomplete="off" novalidate>
+        <label for="q2" class="k">pump.fun mint, github url or owner/repo</label>
+        <div class="srow">
+          <input id="q2" name="q" type="text" spellcheck="false" placeholder="owner/repo" aria-describedby="parse2">
+          <button type="submit" id="sbtn">SURVEY<small>~5 s · read-only</small></button>
+        </div>
+        <p class="parse" id="parse2" aria-live="polite">Paste a repo. The field will be drawn from what we measure.</p>
+        <p class="err" id="err" role="alert" hidden></p>
+        <div class="tries k">Try: <button type="button" class="try" data-q="tinygrad/tinygrad">tinygrad/tinygrad</button></div>
+        <p class="note gone" id="gone-note"></p>
+      </form>
+    </div>
+    <div class="mband" id="survey-band" aria-hidden="true"></div>
+    <div class="col survey rest">
+
+      <div class="loading" id="loading" hidden aria-live="polite">
+        <p class="walk">Walking the field. Nothing's been decided yet.</p>
+        <ol class="trace" id="trace-live"></ol>
+      </div>
+
+      <article class="report" id="report" aria-live="polite">
+        <p class="rprev" aria-hidden="true">Previous survey · not this input</p>
+        <div class="rhead">
+          <p class="rkick" id="r-kick">A pattern, not an accusation</p>
+          <div class="verdict" id="r-verdict">PLANTED</div>
+          <p class="rlegal" id="r-legal">Public GitHub data only. A pattern, not an accusation: a repo can be starred by a farm without asking for it.</p>
+          <div class="rmeta">
+            <div class="score"><b id="r-score">14</b> / 17</div>
+            <div class="src k" id="r-src">RECORDED 2026-09-25 12:55Z</div>
+          </div>
+        </div>
+        <p class="caption" id="r-caption"></p>
+        <p class="reason" id="r-reason" hidden></p>
+        <p class="again" id="r-again" hidden><button type="button" class="try" id="r-again-btn">Survey again ↻</button> <span class="k" id="r-again-note"></span></p>
+        <p class="headline" id="r-headline"></p>
+        <dl class="rfacts" id="r-facts"></dl>
+        <table class="schedule full" id="schedule-6" role="table" aria-label="The nine signals, as measured on this repo">
+          <caption class="k">The nine signals, as measured on this repo</caption>
+          <thead role="rowgroup"><tr role="row"><th role="columnheader">Signal</th><th role="columnheader">Measured</th><th role="columnheader">Fired</th><th role="columnheader">Wt</th></tr></thead>
+          <tbody role="rowgroup"></tbody>
+        </table>
+        <div class="tracebox"><div class="k">Trace · calls · ms</div><ol class="trace done" id="r-trace"></ol><p class="cost" id="r-cost"></p></div>
+        <div class="lists" id="r-lists"></div>
+        <p class="disclaimer">Public GitHub data only. A pattern, not an accusation: a repo can be starred by a farm without asking for it.</p>
+        <ul class="limits" id="r-limits"></ul>
+      </article>
+
+      <div class="ledger">
+        <div class="lcol"><div class="k">Recent surveys · a verdict is a pattern, not an accusation</div><ol id="recent"><li class="muted">Nobody's walked the field yet today.</li></ol></div>
+        <div class="lcol"><div class="k">Planted fields on file</div><ol id="fields"><li class="muted">No fields indexed yet.</li></ol></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHEET 7 · BENCH MARK -->
+  <section class="sheet flow" id="bench" data-sheet="6" aria-labelledby="h2-7">
+    <div class="col">
+      <p class="over"><span>Sheet 7 of 7</span><i></i><span>Bench mark</span></p>
+      <h2 id="h2-7" class="rule">Measured,<br>not promised.</h2>
+      <p class="deck">A bench mark is a brass disc a surveyor sets in concrete: a height you can check. These are ours, measured on one Mac, with the command to measure them again.</p>
+      <table class="bench" id="bench-table">
+        <thead><tr><th>Measurement</th><th>Result</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="note" id="bench-cmd"></p>
+      <div class="repo" id="repo">
+        <div class="k">Repository <span class="live">PUBLIC · MIT</span></div>
+        <p class="rurl"><a id="repo-url" href="https://github.com/lkristof55/starcrop" target="_blank" rel="noopener"></a></p>
+        <dl class="rgrid">
+          <div><dt class="k">Package</dt><dd id="repo-pkg"></dd></div>
+          <div><dt class="k">License</dt><dd>MIT</dd></div>
+          <div><dt class="k">Runtime</dt><dd>Node ≥ 20 · zero dependencies</dd></div>
+        </dl>
+        <div class="cli"><code id="repo-cmd">npx starcrop owner/repo</code><button type="button" class="copy" data-copy="npx starcrop owner/repo">COPY</button></div>
+      </div>
+      <figure class="code" id="usage-fig" data-title="src">
+        <pre id="usage-code"></pre>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" id="foot">
+  <div class="fcell wide"><div class="k">Project</div><div class="v name">STARCROP ($STCROP)</div></div>
+  <div class="fcell"><div class="k">Sheet</div><div class="v">7 / 7 · END OF SET</div></div>
+  <div class="fcell wide"><div class="k">Note</div><div class="v">Starcrop reads public GitHub data. No keys, no wallets, no promises.</div></div>
+  <div class="fcell"><div class="k">CA</div><div class="v">SOON</div></div>
+</footer>
+
+<div class="tag" id="tag" role="status" aria-live="polite" hidden></div>
+<div class="furrows" id="furrows" aria-label="Pull test: one button per stargazer account"></div>
+<noscript><p class="nojs">Starcrop draws its field with WebGL and runs its survey with JavaScript. The command line works without either: npx starcrop owner/repo</p></noscript>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
