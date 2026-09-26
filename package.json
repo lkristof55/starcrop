@@ -1,0 +1,24 @@
+{
+  "name": "starcrop",
+  "version": "0.1.0",
+  "description": "Tell grown GitHub stars from planted ones, after GitHub hid the stargazers. Reverse stargazing + the GitHub id clock.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" },
+    "./package.json": "./package.json"
+  },
+  "bin": { "starcrop": "bin/starcrop.js" },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node bench/bench.js",
+    "bench:live": "node bench/bench.js --live"
+  },
+  "keywords": ["github", "stars", "fake-stars", "star-farm", "stargazers", "forensics", "solana", "pump.fun", "cli"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/lkristof55/starcrop" },
+  "homepage": "https://github.com/lkristof55/starcrop#readme"
+}

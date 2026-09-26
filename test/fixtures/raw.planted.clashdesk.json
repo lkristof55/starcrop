@@ -1,0 +1,1203 @@
+{
+ "_note": "Rebuilt by test/record.mjs from research/samples (report.example.planted.json, fields.example.json, readme-skeletons.json), all recorded on mainnet GitHub 2026-09-25 12:49-12:58Z. Starred lists hold only the stars on the target and its field (the other stars were not recorded). READMEs are stored as recorded skeleton hashes. The repos and accounts returned 404 by ~15:40Z the same day.",
+ "v": 1,
+ "checkedAt": "2026-09-25T12:55:00Z",
+ "source": "fixture",
+ "partial": false,
+ "input": {
+  "q": "AutocratGirder/ClashDesk",
+  "kind": "slug",
+  "mint": null,
+  "token": null,
+  "note": null
+ },
+ "repo": {
+  "fullName": "AutocratGirder/ClashDesk",
+  "description": "Modern cross-platform desktop client for proxy workflows",
+  "createdAt": "2026-09-23T11:21:44Z",
+  "pushedAt": "2026-09-23T11:22:01Z",
+  "stars": 224,
+  "forks": 47,
+  "sizeKb": 4,
+  "language": "Rust"
+ },
+ "owner": {
+  "login": "AutocratGirder",
+  "id": 307795303,
+  "createdAt": "2026-07-21T23:59:38Z",
+  "followers": 0,
+  "publicRepos": 14,
+  "type": "User"
+ },
+ "commits": 4,
+ "siblings": {
+  "from": "2026-09-23T11:21:14Z",
+  "to": "2026-09-23T11:22:14Z",
+  "minStars": 112,
+  "total": 9,
+  "controlCount": 0,
+  "items": [
+   {
+    "fullName": "AutocratGirder/ClashDesk",
+    "createdAt": "2026-09-23T11:21:44Z",
+    "stars": 224,
+    "forks": 47,
+    "ownerLogin": "AutocratGirder",
+    "ownerId": 307795303,
+    "description": null
+   },
+   {
+    "fullName": "BinaryDeliverer/CodexDesk",
+    "createdAt": "2026-09-23T11:21:44Z",
+    "stars": 223,
+    "forks": 48,
+    "ownerLogin": "BinaryDeliverer",
+    "ownerId": 307794984,
+    "description": null
+   },
+   {
+    "fullName": "AvenueSnowStep/ClaudePanel",
+    "createdAt": "2026-09-23T11:21:45Z",
+    "stars": 222,
+    "forks": 48,
+    "ownerLogin": "AvenueSnowStep",
+    "ownerId": 307795094,
+    "description": null
+   },
+   {
+    "fullName": "BricklayerSurmount/DockForge",
+    "createdAt": "2026-09-23T11:21:45Z",
+    "stars": 223,
+    "forks": 47,
+    "ownerLogin": "BricklayerSurmount",
+    "ownerId": 307793905,
+    "description": null
+   },
+   {
+    "fullName": "Behemothlyaoscillate/RustDeskPro",
+    "createdAt": "2026-09-23T11:21:46Z",
+    "stars": 222,
+    "forks": 47,
+    "ownerLogin": "Behemothlyaoscillate",
+    "ownerId": 307793903,
+    "description": null
+   },
+   {
+    "fullName": "BridgeDruidCompress/TauriKit",
+    "createdAt": "2026-09-23T11:21:48Z",
+    "stars": 224,
+    "forks": 47,
+    "ownerLogin": "BridgeDruidCompress",
+    "ownerId": 307794066,
+    "description": null
+   },
+   {
+    "fullName": "CassowaryDevelop/HelixEdit",
+    "createdAt": "2026-09-23T11:21:48Z",
+    "stars": 222,
+    "forks": 47,
+    "ownerLogin": "CassowaryDevelop",
+    "ownerId": 307794893,
+    "description": null
+   },
+   {
+    "fullName": "centralcashierboost/ZedLite",
+    "createdAt": "2026-09-23T11:21:50Z",
+    "stars": 223,
+    "forks": 47,
+    "ownerLogin": "centralcashierboost",
+    "ownerId": 307794291,
+    "description": null
+   },
+   {
+    "fullName": "BufferHerald/WarpLite",
+    "createdAt": "2026-09-23T11:21:52Z",
+    "stars": 224,
+    "forks": 47,
+    "ownerLogin": "BufferHerald",
+    "ownerId": 307794603,
+    "description": null
+   }
+  ]
+ },
+ "cohort": {
+  "computed": true,
+  "from": "2026-07-21T23:53:38Z",
+  "to": "2026-07-22T00:05:38Z",
+  "query": "created:2026-07-21T23:53:38Z..2026-07-22T00:05:38Z repos:>=7 followers:0",
+  "minRepos": 7,
+  "total": 29,
+  "controlCount": 2,
+  "items": [
+   {
+    "login": "Lengthbriexemplify",
+    "id": 307795209
+   },
+   {
+    "login": "FiscalUpgrade",
+    "id": 307795234
+   },
+   {
+    "login": "ModernAnemoneStove",
+    "id": 307795235
+   },
+   {
+    "login": "Emberbencontract",
+    "id": 307795302
+   },
+   {
+    "login": "QuantumSkinkCry",
+    "id": 307795340
+   }
+  ]
+ },
+ "seeds": [
+  {
+   "login": "Behemothlyaoscillate",
+   "id": 307793903,
+   "via": "fork"
+  },
+  {
+   "login": "BricklayerSurmount",
+   "id": 307793905,
+   "via": "fork"
+  },
+  {
+   "login": "BridgeDruidCompress",
+   "id": 307794066,
+   "via": "fork"
+  },
+  {
+   "login": "centralcashierboost",
+   "id": 307794291,
+   "via": "fork"
+  },
+  {
+   "login": "BufferHerald",
+   "id": 307794603,
+   "via": "fork"
+  },
+  {
+   "login": "CassowaryDevelop",
+   "id": 307794893,
+   "via": "fork"
+  },
+  {
+   "login": "BinaryDeliverer",
+   "id": 307794984,
+   "via": "fork"
+  },
+  {
+   "login": "AvenueSnowStep",
+   "id": 307795094,
+   "via": "fork"
+  },
+  {
+   "login": "Lengthbriexemplify",
+   "id": 307795209,
+   "via": "cohort"
+  },
+  {
+   "login": "FiscalUpgrade",
+   "id": 307795234,
+   "via": "cohort"
+  },
+  {
+   "login": "ModernAnemoneStove",
+   "id": 307795235,
+   "via": "cohort"
+  },
+  {
+   "login": "Emberbencontract",
+   "id": 307795302,
+   "via": "cohort"
+  },
+  {
+   "login": "QuantumSkinkCry",
+   "id": 307795340,
+   "via": "cohort"
+  }
+ ],
+ "starred": {
+  "Behemothlyaoscillate": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:36Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:50:40Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:50:36Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:50:32Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:50:28Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:50:24Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:19Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:14Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:49:39Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:34Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "BricklayerSurmount": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:23Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:50:32Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:50:28Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:50:24Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:50:21Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:50:18Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:14Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:11Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:49:38Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:34Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "BridgeDruidCompress": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:22Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:51:01Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:50:57Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:50:53Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:50:49Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:50:45Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:41Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:37Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:50:34Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:37Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "centralcashierboost": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:32Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:51:20Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:51:17Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:51:13Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:51:10Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:51:06Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:51:02Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:59Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:50:56Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:50:52Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "BufferHerald": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:30Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:51:18Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:51:14Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:51:09Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:51:05Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:51:01Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:58Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:54Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:49:40Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:36Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "CassowaryDevelop": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:31Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:51:22Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:51:18Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:51:13Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:51:09Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:51:06Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:51:01Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:57Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:50:53Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:50:49Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "BinaryDeliverer": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:20Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:50:41Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:50:37Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:50:32Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:50:28Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:50:23Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:19Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:49:39Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:49:36Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:33Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "AvenueSnowStep": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:18Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:50:38Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:50:34Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:50:29Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:50:26Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:50:22Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:50:16Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:50:12Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:49:38Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:49:34Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "Lengthbriexemplify": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:21:19Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:54:52Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:54:48Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:54:41Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:54:31Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:54:25Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:54:20Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:54:16Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:54:11Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:54:03Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "FiscalUpgrade": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:21:18Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:53:15Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:53:09Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:53:05Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:53:01Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:52:55Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:52:51Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:52:46Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:52:43Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:52:39Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "ModernAnemoneStove": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:21:39Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:55:40Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:55:36Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:55:32Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:55:27Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:55:23Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:55:20Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:55:16Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:55:12Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:55:09Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "Emberbencontract": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:20:53Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:52:24Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:52:20Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:52:16Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:52:11Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:52:08Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:52:04Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:52:00Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:51:56Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:51:52Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  },
+  "QuantumSkinkCry": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+     "at": "2026-09-24T22:22:08Z",
+     "stars": 196,
+     "createdAt": "2026-09-24T21:30:25Z"
+    },
+    {
+     "repo": "BufferHerald/WarpLite",
+     "at": "2026-09-23T11:58:32Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:52Z"
+    },
+    {
+     "repo": "centralcashierboost/ZedLite",
+     "at": "2026-09-23T11:58:18Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:50Z"
+    },
+    {
+     "repo": "CassowaryDevelop/HelixEdit",
+     "at": "2026-09-23T11:58:07Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "BridgeDruidCompress/TauriKit",
+     "at": "2026-09-23T11:57:55Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:48Z"
+    },
+    {
+     "repo": "Behemothlyaoscillate/RustDeskPro",
+     "at": "2026-09-23T11:57:48Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:46Z"
+    },
+    {
+     "repo": "BricklayerSurmount/DockForge",
+     "at": "2026-09-23T11:57:40Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AvenueSnowStep/ClaudePanel",
+     "at": "2026-09-23T11:57:27Z",
+     "stars": 222,
+     "createdAt": "2026-09-23T11:21:45Z"
+    },
+    {
+     "repo": "AutocratGirder/ClashDesk",
+     "at": "2026-09-23T11:57:18Z",
+     "stars": 224,
+     "createdAt": "2026-09-23T11:21:44Z"
+    },
+    {
+     "repo": "BinaryDeliverer/CodexDesk",
+     "at": "2026-09-23T11:57:04Z",
+     "stars": 223,
+     "createdAt": "2026-09-23T11:21:44Z"
+    }
+   ]
+  }
+ },
+ "profiles": {
+  "Behemothlyaoscillate": {
+   "id": 307793903,
+   "createdAt": "2026-07-21T23:50:36Z",
+   "followers": 0,
+   "publicRepos": 15
+  },
+  "BricklayerSurmount": {
+   "id": 307793905,
+   "createdAt": "2026-07-21T23:50:36Z",
+   "followers": 0,
+   "publicRepos": 15
+  },
+  "BridgeDruidCompress": {
+   "id": 307794066,
+   "createdAt": "2026-07-21T23:51:50Z",
+   "followers": 0,
+   "publicRepos": 16
+  },
+  "centralcashierboost": {
+   "id": 307794291,
+   "createdAt": "2026-07-21T23:53:19Z",
+   "followers": 0,
+   "publicRepos": 14
+  },
+  "BufferHerald": {
+   "id": 307794603,
+   "createdAt": "2026-07-21T23:55:17Z",
+   "followers": 0,
+   "publicRepos": 15
+  },
+  "CassowaryDevelop": {
+   "id": 307794893,
+   "createdAt": "2026-07-21T23:57:05Z",
+   "followers": 0,
+   "publicRepos": 16
+  },
+  "BinaryDeliverer": {
+   "id": 307794984,
+   "createdAt": "2026-07-21T23:57:33Z",
+   "followers": 0,
+   "publicRepos": 15
+  },
+  "AvenueSnowStep": {
+   "id": 307795094,
+   "createdAt": "2026-07-21T23:58:14Z",
+   "followers": 0,
+   "publicRepos": 15
+  }
+ },
+ "readmes": {
+  "AutocratGirder/ClashDesk": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "BufferHerald/WarpLite": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "BinaryDeliverer/CodexDesk": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "CassowaryDevelop/HelixEdit": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "AvenueSnowStep/ClaudePanel": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "BricklayerSurmount/DockForge": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "centralcashierboost/ZedLite": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "Behemothlyaoscillate/RustDeskPro": {
+   "skeleton": "b9ae6852e01d"
+  },
+  "BridgeDruidCompress/TauriKit": {
+   "skeleton": "b9ae6852e01d"
+  }
+ },
+ "known": null,
+ "trace": [
+  {
+   "step": "repo",
+   "calls": 2,
+   "ms": 0
+  },
+  {
+   "step": "siblings",
+   "calls": 2,
+   "ms": 0
+  },
+  {
+   "step": "cohort",
+   "calls": 2,
+   "ms": 0
+  },
+  {
+   "step": "seeds",
+   "calls": 1,
+   "ms": 0
+  },
+  {
+   "step": "starred",
+   "calls": 13,
+   "ms": 0
+  },
+  {
+   "step": "profiles",
+   "calls": 8,
+   "ms": 0
+  },
+  {
+   "step": "soil",
+   "calls": 1,
+   "ms": 0
+  },
+  {
+   "step": "twins",
+   "calls": 5,
+   "ms": 0
+  },
+  {
+   "step": "score",
+   "calls": 0,
+   "ms": 0
+  }
+ ],
+ "cost": {
+  "githubCore": 30,
+  "githubSearch": 4,
+  "heliusCredits": 0
+ },
+ "limits": [
+  "RECORDED: this farm was surveyed 2026-09-25 12:55Z; its repos and accounts have since returned 404."
+ ]
+}

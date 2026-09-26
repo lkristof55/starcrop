@@ -1,0 +1,70 @@
+{
+ "v": 1,
+ "checkedAt": "2026-09-25T13:58:16Z",
+ "source": "live",
+ "partial": false,
+ "input": {
+  "q": "64S9QFTFhrcLWsXWjTBkaWPS4asdcrQGwvVQWxUjpump",
+  "kind": "mint",
+  "mint": "64S9QFTFhrcLWsXWjTBkaWPS4asdcrQGwvVQWxUjpump",
+  "token": {
+   "name": "Bitcoin Machine Code",
+   "symbol": "BMC",
+   "linkFoundIn": "metadata"
+  },
+  "note": null
+ },
+ "repo": {
+  "fullName": "sample-owner-0153/bitcoinmachinecode",
+  "description": "A Bitcoin node in 100% AI-generated x86-64 assembly. Fully verifies consensus from genesis; UTXO set proven byte-identical to Bitcoin Core (MuHash-exact); follows mainnet live; serves most of Core's RPC surface incl. getblocktemplate/submitblock/scantxoutset. C/Python are oracles and harnesses only. Unaudited — do not run this.",
+  "createdAt": "2026-08-13T07:56:47Z",
+  "pushedAt": "2026-09-25T13:54:16Z",
+  "stars": 3,
+  "forks": 1,
+  "sizeKb": 42319,
+  "language": "C"
+ },
+ "owner": {
+  "login": "sample-owner-0153",
+  "id": 288991054,
+  "createdAt": "2026-05-29T16:00:46Z",
+  "followers": 3,
+  "publicRepos": 11,
+  "type": "User"
+ },
+ "commits": null,
+ "siblings": null,
+ "cohort": {
+  "computed": false
+ },
+ "seeds": [],
+ "starred": {},
+ "profiles": {},
+ "readmes": {},
+ "known": null,
+ "trace": [
+  {
+   "step": "resolve",
+   "calls": 2,
+   "ms": 380
+  },
+  {
+   "step": "repo",
+   "calls": 2,
+   "ms": 769
+  },
+  {
+   "step": "score",
+   "calls": 0,
+   "ms": 0
+  }
+ ],
+ "cost": {
+  "githubCore": 2,
+  "githubSearch": 0,
+  "heliusCredits": 10
+ },
+ "limits": [],
+ "elapsedMs": 1149,
+ "_note": "Recorded live by test/record.mjs at 2026-09-25T13:58:16Z. GitHub logins replaced by stable placeholders (sample-user-NN = accounts seen as stargazers, sample-owner-NNNN = repo owners, the organization tinygrad kept) with anonymize() on 2026-09-26; ids, dates, counts and star lists are unchanged, and READMEs carry the skeleton hash of their original text (their text had third-party links rewritten), so analyze() returns the recorded report with the names swapped."
+}

@@ -1,0 +1,2919 @@
+{
+ "v": 1,
+ "checkedAt": "2026-09-25T13:58:11Z",
+ "source": "live",
+ "partial": false,
+ "input": {
+  "q": "https://github.com/sample-owner-1078/riso-windowseat",
+  "kind": "url",
+  "mint": null,
+  "token": null,
+  "note": null
+ },
+ "repo": {
+  "fullName": "sample-owner-1078/riso-windowseat",
+  "description": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with the Claude Code skills, docs and tools to make your own.",
+  "createdAt": "2026-09-22T20:14:59Z",
+  "pushedAt": "2026-09-25T00:01:29Z",
+  "stars": 214,
+  "forks": 22,
+  "sizeKb": 43743,
+  "language": "HTML"
+ },
+ "owner": {
+  "login": "sample-owner-1078",
+  "id": 191101445,
+  "createdAt": "2024-12-09T09:38:30Z",
+  "followers": 5,
+  "publicRepos": 18,
+  "type": "User"
+ },
+ "commits": 11,
+ "siblings": {
+  "from": "2026-09-22T20:14:29Z",
+  "to": "2026-09-22T20:15:29Z",
+  "minStars": 107,
+  "total": 1,
+  "controlCount": 0,
+  "items": [
+   {
+    "fullName": "sample-owner-1078/riso-windowseat",
+    "createdAt": "2026-09-22T20:14:59Z",
+    "stars": 214,
+    "forks": 22,
+    "ownerLogin": "sample-owner-1078",
+    "ownerId": 191101445,
+    "description": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with the Claude Code skills, docs and tools to make your own."
+   }
+  ]
+ },
+ "cohort": {
+  "computed": false
+ },
+ "seeds": [
+  {
+   "login": "sample-user-19",
+   "id": 177591788,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-18",
+   "id": 294781990,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-13",
+   "id": 51504045,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-12",
+   "id": 1063045,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-25",
+   "id": 900074,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-15",
+   "id": 709078,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-02",
+   "id": 49857072,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-01",
+   "id": 123363660,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-09",
+   "id": 20175219,
+   "via": "fork"
+  },
+  {
+   "login": "sample-user-22",
+   "id": 82221223,
+   "via": "fork"
+  }
+ ],
+ "starred": {
+  "sample-user-19": {
+   "pages": 1,
+   "items": []
+  },
+  "sample-user-18": {
+   "pages": 1,
+   "items": []
+  },
+  "sample-user-15": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-1280/Sega-Rally-Championship-PC-Xbox360-Series-X-",
+     "at": "2026-08-18T14:53:36Z",
+     "stars": 267,
+     "createdAt": "2026-07-23T21:49:03Z"
+    },
+    {
+     "repo": "sample-owner-0317/cc2-openwebui",
+     "at": "2026-05-15T18:04:21Z",
+     "stars": 24,
+     "createdAt": "2026-04-19T12:11:25Z"
+    },
+    {
+     "repo": "sample-owner-0827/claude-skillz",
+     "at": "2026-02-07T12:40:15Z",
+     "stars": 349,
+     "createdAt": "2025-11-14T19:08:15Z"
+    },
+    {
+     "repo": "sample-owner-0008/roam-research-mcp",
+     "at": "2026-02-07T11:47:24Z",
+     "stars": 101,
+     "createdAt": "2024-12-19T22:05:27Z"
+    },
+    {
+     "repo": "sample-owner-0875/neomatrix16",
+     "at": "2025-12-13T22:53:55Z",
+     "stars": 18,
+     "createdAt": "2025-12-12T23:22:07Z"
+    },
+    {
+     "repo": "sample-user-15/onlinewardleymaps",
+     "at": "2023-12-27T20:04:01Z",
+     "stars": 310,
+     "createdAt": "2019-01-19T20:01:34Z"
+    },
+    {
+     "repo": "sample-owner-0048/awesome-engineering-strategy",
+     "at": "2023-09-28T10:58:55Z",
+     "stars": 1371,
+     "createdAt": "2022-05-31T07:44:56Z"
+    },
+    {
+     "repo": "sample-owner-0114/gitmaps",
+     "at": "2022-03-17T21:29:42Z",
+     "stars": 4,
+     "createdAt": "2022-02-24T04:31:05Z"
+    }
+   ]
+  },
+  "sample-user-02": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-0368/elide",
+     "at": "2026-01-09T04:23:46Z",
+     "stars": 564,
+     "createdAt": "2022-06-22T05:48:04Z"
+    }
+   ]
+  },
+  "sample-user-01": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-1078/riso-windowseat",
+     "at": "2026-09-23T09:27:26Z",
+     "stars": 214,
+     "createdAt": "2026-09-22T20:14:59Z"
+    },
+    {
+     "repo": "sample-owner-0738/COMMAS_cloud_model",
+     "at": "2026-09-17T14:04:21Z",
+     "stars": 1,
+     "createdAt": "2024-12-06T19:20:18Z"
+    },
+    {
+     "repo": "sample-owner-0353/CaMa-Flood_v4",
+     "at": "2026-09-15T16:44:38Z",
+     "stars": 1,
+     "createdAt": "2024-08-15T08:23:25Z"
+    },
+    {
+     "repo": "sample-owner-0353/ecwam",
+     "at": "2026-09-15T16:43:58Z",
+     "stars": 22,
+     "createdAt": "2023-03-20T17:04:12Z"
+    },
+    {
+     "repo": "sample-owner-0353/ecland",
+     "at": "2026-09-15T16:43:37Z",
+     "stars": 12,
+     "createdAt": "2024-06-05T14:30:26Z"
+    },
+    {
+     "repo": "sample-owner-0353/ecrad",
+     "at": "2026-09-15T16:43:22Z",
+     "stars": 53,
+     "createdAt": "2020-08-27T11:15:00Z"
+    },
+    {
+     "repo": "sample-owner-0353/openifs",
+     "at": "2026-09-15T16:43:13Z",
+     "stars": 173,
+     "createdAt": "2024-09-17T09:02:18Z"
+    },
+    {
+     "repo": "sample-owner-0515/cmaps",
+     "at": "2026-09-11T11:41:34Z",
+     "stars": 248,
+     "createdAt": "2016-05-30T01:41:25Z"
+    },
+    {
+     "repo": "sample-owner-0543/academic-research-skills",
+     "at": "2026-05-27T23:05:03Z",
+     "stars": 49444,
+     "createdAt": "2026-02-26T06:31:01Z"
+    },
+    {
+     "repo": "sample-owner-0601/caveman",
+     "at": "2026-05-26T10:42:41Z",
+     "stars": 107806,
+     "createdAt": "2026-04-04T10:03:00Z"
+    },
+    {
+     "repo": "sample-owner-0611/cherry-studio",
+     "at": "2026-04-24T09:41:40Z",
+     "stars": 62,
+     "createdAt": "2026-01-07T10:45:06Z"
+    },
+    {
+     "repo": "sample-owner-1237/India-Weather-Forecast",
+     "at": "2026-04-17T08:33:43Z",
+     "stars": 1,
+     "createdAt": "2026-04-16T14:46:23Z"
+    },
+    {
+     "repo": "sample-owner-0542/codex-desktop-linux",
+     "at": "2026-04-12T09:21:12Z",
+     "stars": 3847,
+     "createdAt": "2026-02-05T07:57:25Z"
+    },
+    {
+     "repo": "sample-owner-0738/wrf4-elec",
+     "at": "2026-04-08T11:57:18Z",
+     "stars": 17,
+     "createdAt": "2023-11-06T17:17:59Z"
+    },
+    {
+     "repo": "sample-owner-0438/pyfortracc",
+     "at": "2026-04-07T22:27:53Z",
+     "stars": 39,
+     "createdAt": "2024-10-28T13:19:28Z"
+    },
+    {
+     "repo": "sample-owner-1200/tobac",
+     "at": "2026-04-07T22:26:58Z",
+     "stars": 144,
+     "createdAt": "2017-11-02T14:00:51Z"
+    },
+    {
+     "repo": "sample-owner-0966/sample-owner-0966",
+     "at": "2026-04-03T17:26:57Z",
+     "stars": 3825,
+     "createdAt": "2017-05-31T18:01:42Z"
+    },
+    {
+     "repo": "sample-owner-1298/WPS",
+     "at": "2026-03-26T01:21:28Z",
+     "stars": 267,
+     "createdAt": "2016-08-16T16:52:26Z"
+    },
+    {
+     "repo": "sample-owner-0536/RegCM",
+     "at": "2026-03-20T04:56:08Z",
+     "stars": 73,
+     "createdAt": "2019-04-15T15:29:35Z"
+    },
+    {
+     "repo": "sample-owner-1082/coldPool-detection-and-tracking",
+     "at": "2025-05-06T08:42:52Z",
+     "stars": 5,
+     "createdAt": "2022-02-03T08:05:11Z"
+    },
+    {
+     "repo": "sample-owner-1236/EPyGrAM",
+     "at": "2025-05-05T11:22:08Z",
+     "stars": 21,
+     "createdAt": "2022-03-03T14:26:16Z"
+    }
+   ]
+  },
+  "sample-user-22": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-0189/career-ops",
+     "at": "2026-09-03T15:20:35Z",
+     "stars": 72712,
+     "createdAt": "2026-04-04T18:21:18Z"
+    },
+    {
+     "repo": "sample-owner-0471/spec-kit",
+     "at": "2026-05-06T01:33:36Z",
+     "stars": 138850,
+     "createdAt": "2025-08-21T22:54:31Z"
+    },
+    {
+     "repo": "sample-owner-0428/OpenSpec",
+     "at": "2026-05-06T01:33:35Z",
+     "stars": 70313,
+     "createdAt": "2025-08-05T10:37:45Z"
+    },
+    {
+     "repo": "sample-owner-0703/Split-Flap-Display",
+     "at": "2025-09-07T17:24:56Z",
+     "stars": 85,
+     "createdAt": "2025-02-07T14:30:08Z"
+    },
+    {
+     "repo": "sample-owner-1059/splitflap",
+     "at": "2025-09-07T17:22:32Z",
+     "stars": 4146,
+     "createdAt": "2015-10-04T21:17:52Z"
+    },
+    {
+     "repo": "sample-owner-0567/Randomly-RemindMe",
+     "at": "2025-09-04T00:35:01Z",
+     "stars": 15,
+     "createdAt": "2015-04-20T16:11:45Z"
+    },
+    {
+     "repo": "sample-owner-1184/vibe",
+     "at": "2025-08-14T18:08:01Z",
+     "stars": 7602,
+     "createdAt": "2024-01-08T03:29:06Z"
+    },
+    {
+     "repo": "sample-owner-0304/keyboards",
+     "at": "2025-06-30T03:07:39Z",
+     "stars": 3,
+     "createdAt": "2024-02-19T21:28:48Z"
+    },
+    {
+     "repo": "sample-owner-0889/CATreus",
+     "at": "2025-06-20T12:10:54Z",
+     "stars": 3,
+     "createdAt": "2025-05-05T22:32:18Z"
+    },
+    {
+     "repo": "sample-owner-1043/atreus",
+     "at": "2025-06-20T12:05:23Z",
+     "stars": 8,
+     "createdAt": "2014-02-26T17:55:27Z"
+    },
+    {
+     "repo": "sample-owner-0164/Music-for-iPod",
+     "at": "2025-06-19T16:42:17Z",
+     "stars": 2,
+     "createdAt": "2025-06-18T18:59:12Z"
+    },
+    {
+     "repo": "sample-owner-0090/RPico-Clone-Hero-Controller",
+     "at": "2022-08-03T18:15:14Z",
+     "stars": 36,
+     "createdAt": "2021-03-30T23:08:17Z"
+    },
+    {
+     "repo": "sample-owner-1112/Pico-Game-Controller",
+     "at": "2022-08-03T18:14:46Z",
+     "stars": 160,
+     "createdAt": "2021-02-14T23:02:23Z"
+    },
+    {
+     "repo": "sample-owner-0339/rp2040-gamecon",
+     "at": "2022-08-03T18:14:16Z",
+     "stars": 57,
+     "createdAt": "2021-02-04T15:14:20Z"
+    },
+    {
+     "repo": "sample-owner-0740/RPi-Jukebox-RFID",
+     "at": "2022-03-06T18:43:22Z",
+     "stars": 1797,
+     "createdAt": "2017-02-02T11:41:41Z"
+    }
+   ]
+  },
+  "sample-user-25": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-1078/riso-windowseat",
+     "at": "2026-09-23T05:42:46Z",
+     "stars": 214,
+     "createdAt": "2026-09-22T20:14:59Z"
+    },
+    {
+     "repo": "sample-owner-0968/eligibility-antigravity-patcher",
+     "at": "2026-09-03T14:26:29Z",
+     "stars": 53,
+     "createdAt": "2026-06-16T10:47:26Z"
+    },
+    {
+     "repo": "sample-owner-1205/tone3000-plugin",
+     "at": "2026-09-01T16:56:20Z",
+     "stars": 201,
+     "createdAt": "2025-09-10T20:12:58Z"
+    },
+    {
+     "repo": "sample-owner-0018/sample-owner-0018-1.5",
+     "at": "2026-07-21T15:29:52Z",
+     "stars": 12876,
+     "createdAt": "2025-09-04T02:00:07Z"
+    },
+    {
+     "repo": "sample-owner-1061/NAM-EQ-Match",
+     "at": "2026-07-09T13:32:58Z",
+     "stars": 8,
+     "createdAt": "2026-07-07T07:17:50Z"
+    },
+    {
+     "repo": "sample-owner-0265/JammLab",
+     "at": "2026-06-25T12:09:54Z",
+     "stars": 4,
+     "createdAt": "2026-06-10T03:53:05Z"
+    },
+    {
+     "repo": "sample-owner-0761/logic-pro-mcp",
+     "at": "2026-06-16T11:35:55Z",
+     "stars": 102,
+     "createdAt": "2026-04-04T14:06:51Z"
+    },
+    {
+     "repo": "sample-owner-0511/Loupe",
+     "at": "2026-06-15T15:04:41Z",
+     "stars": 103,
+     "createdAt": "2026-05-17T14:14:44Z"
+    },
+    {
+     "repo": "sample-owner-1094/worldwideview",
+     "at": "2026-05-11T11:04:30Z",
+     "stars": 1917,
+     "createdAt": "2026-03-04T04:42:15Z"
+    },
+    {
+     "repo": "sample-owner-0770/late-sh",
+     "at": "2026-04-28T11:50:27Z",
+     "stars": 1474,
+     "createdAt": "2026-04-11T21:01:43Z"
+    },
+    {
+     "repo": "sample-owner-0841/awesome-musicdsp",
+     "at": "2026-03-05T09:06:34Z",
+     "stars": 3016,
+     "createdAt": "2018-04-04T18:43:52Z"
+    },
+    {
+     "repo": "sample-owner-1026/App-Store-Connect-CLI",
+     "at": "2026-02-26T06:10:17Z",
+     "stars": 7359,
+     "createdAt": "2026-01-20T11:17:23Z"
+    },
+    {
+     "repo": "sample-owner-1324/gzdoom",
+     "at": "2026-02-24T16:55:17Z",
+     "stars": 3106,
+     "createdAt": "2013-06-23T06:38:12Z"
+    },
+    {
+     "repo": "sample-owner-1149/hear",
+     "at": "2026-02-20T09:59:53Z",
+     "stars": 670,
+     "createdAt": "2022-02-23T21:00:13Z"
+    },
+    {
+     "repo": "sample-owner-0628/slack-mcp-server",
+     "at": "2026-01-29T14:44:37Z",
+     "stars": 1848,
+     "createdAt": "2025-04-12T11:31:34Z"
+    },
+    {
+     "repo": "sample-owner-0974/Qwen3-TTS",
+     "at": "2026-01-27T07:38:09Z",
+     "stars": 13540,
+     "createdAt": "2026-01-21T06:41:32Z"
+    },
+    {
+     "repo": "sample-owner-0922/google-ai-mode-skill",
+     "at": "2026-01-09T07:01:59Z",
+     "stars": 295,
+     "createdAt": "2026-01-03T19:31:32Z"
+    },
+    {
+     "repo": "sample-owner-1181/claude-mem",
+     "at": "2025-12-15T07:05:16Z",
+     "stars": 94672,
+     "createdAt": "2025-08-31T20:50:03Z"
+    },
+    {
+     "repo": "sample-owner-0876/pixeli",
+     "at": "2025-11-26T13:32:28Z",
+     "stars": 18,
+     "createdAt": "2025-11-09T06:15:19Z"
+    },
+    {
+     "repo": "sample-owner-0560/SoundThread",
+     "at": "2025-08-16T11:06:35Z",
+     "stars": 3126,
+     "createdAt": "2025-05-06T01:35:06Z"
+    },
+    {
+     "repo": "sample-owner-0081/swift-binary-parsing",
+     "at": "2025-06-12T18:17:01Z",
+     "stars": 388,
+     "createdAt": "2025-05-24T15:55:36Z"
+    },
+    {
+     "repo": "sample-owner-0655/LibreChat",
+     "at": "2025-06-12T07:10:58Z",
+     "stars": 44933,
+     "createdAt": "2023-02-12T01:06:52Z"
+    },
+    {
+     "repo": "sample-owner-0855/opencode",
+     "at": "2025-06-04T18:32:27Z",
+     "stars": 13769,
+     "createdAt": "2025-03-16T23:38:55Z"
+    },
+    {
+     "repo": "sample-owner-0075/prompt-eng-interactive-tutorial",
+     "at": "2025-06-02T12:53:10Z",
+     "stars": 38296,
+     "createdAt": "2024-04-02T15:52:00Z"
+    },
+    {
+     "repo": "sample-owner-0588/ysfx",
+     "at": "2025-05-01T17:33:41Z",
+     "stars": 182,
+     "createdAt": "2023-02-20T19:36:02Z"
+    },
+    {
+     "repo": "sample-owner-0588/JSFX",
+     "at": "2025-05-01T17:33:38Z",
+     "stars": 645,
+     "createdAt": "2018-05-05T16:04:59Z"
+    },
+    {
+     "repo": "sample-owner-0669/FramePack",
+     "at": "2025-04-23T07:43:28Z",
+     "stars": 17260,
+     "createdAt": "2025-04-12T14:45:22Z"
+    },
+    {
+     "repo": "sample-owner-1207/FiraCode",
+     "at": "2025-04-11T12:32:21Z",
+     "stars": 82055,
+     "createdAt": "2014-11-11T19:32:38Z"
+    },
+    {
+     "repo": "sample-owner-1015/nih-plug",
+     "at": "2025-02-11T11:42:23Z",
+     "stars": 2979,
+     "createdAt": "2022-01-24T20:00:20Z"
+    },
+    {
+     "repo": "sample-owner-0348/deep-research",
+     "at": "2025-02-11T07:33:28Z",
+     "stars": 19727,
+     "createdAt": "2025-02-04T01:27:56Z"
+    },
+    {
+     "repo": "sample-owner-1315/Magical8bitPlug2",
+     "at": "2024-12-03T09:42:04Z",
+     "stars": 391,
+     "createdAt": "2020-02-05T23:53:18Z"
+    },
+    {
+     "repo": "sample-owner-0471/CopilotForXcode",
+     "at": "2024-10-30T08:12:14Z",
+     "stars": 6305,
+     "createdAt": "2024-09-19T17:48:15Z"
+    },
+    {
+     "repo": "sample-owner-0888/spectre-kit",
+     "at": "2024-10-23T08:25:14Z",
+     "stars": 182,
+     "createdAt": "2023-12-03T17:20:10Z"
+    },
+    {
+     "repo": "sample-owner-1323/CogVideo",
+     "at": "2024-09-25T08:45:31Z",
+     "stars": 13042,
+     "createdAt": "2022-05-29T06:46:18Z"
+    },
+    {
+     "repo": "sample-owner-0416/chatgpt_telegram_bot",
+     "at": "2024-08-30T11:13:52Z",
+     "stars": 5536,
+     "createdAt": "2022-12-05T00:12:32Z"
+    },
+    {
+     "repo": "sample-owner-0327/pySSTV",
+     "at": "2024-07-01T15:46:03Z",
+     "stars": 179,
+     "createdAt": "2013-05-29T11:49:17Z"
+    },
+    {
+     "repo": "sample-owner-1054/superprompter",
+     "at": "2024-05-27T10:03:00Z",
+     "stars": 78,
+     "createdAt": "2024-03-21T05:40:40Z"
+    },
+    {
+     "repo": "sample-owner-1204/youtube-upload",
+     "at": "2024-05-10T19:29:17Z",
+     "stars": 2191,
+     "createdAt": "2015-01-09T11:18:49Z"
+    },
+    {
+     "repo": "sample-owner-0266/nu",
+     "at": "2024-05-07T16:08:07Z",
+     "stars": 71,
+     "createdAt": "2016-02-01T10:32:39Z"
+    },
+    {
+     "repo": "sample-owner-0266/q",
+     "at": "2024-05-07T16:04:35Z",
+     "stars": 1424,
+     "createdAt": "2017-11-04T02:06:19Z"
+    },
+    {
+     "repo": "sample-owner-0266/bitstream_autocorrelation",
+     "at": "2024-05-07T15:58:25Z",
+     "stars": 62,
+     "createdAt": "2018-03-11T00:51:17Z"
+    },
+    {
+     "repo": "sample-owner-0242/ComfyUI",
+     "at": "2024-04-09T13:28:10Z",
+     "stars": 134923,
+     "createdAt": "2023-01-17T03:15:56Z"
+    },
+    {
+     "repo": "sample-owner-0551/CopilotForXcode",
+     "at": "2024-03-14T08:51:46Z",
+     "stars": 8213,
+     "createdAt": "2022-12-05T16:08:32Z"
+    },
+    {
+     "repo": "sample-owner-0161/TunablePickup",
+     "at": "2024-03-05T14:13:06Z",
+     "stars": 67,
+     "createdAt": "2024-02-12T00:15:22Z"
+    },
+    {
+     "repo": "sample-owner-0914/LogicProScripter",
+     "at": "2024-02-23T14:00:41Z",
+     "stars": 77,
+     "createdAt": "2022-02-04T22:08:37Z"
+    },
+    {
+     "repo": "sample-owner-0037/Kandinsky-3",
+     "at": "2024-02-14T08:13:07Z",
+     "stars": 396,
+     "createdAt": "2023-11-13T10:16:04Z"
+    },
+    {
+     "repo": "sample-owner-0550/openvino-plugins-ai-audacity",
+     "at": "2024-02-12T07:30:43Z",
+     "stars": 2124,
+     "createdAt": "2023-09-06T21:10:29Z"
+    },
+    {
+     "repo": "sample-owner-1017/CoDeF",
+     "at": "2024-01-17T15:07:00Z",
+     "stars": 4843,
+     "createdAt": "2023-08-15T12:25:31Z"
+    },
+    {
+     "repo": "sample-owner-1244/UTM",
+     "at": "2023-12-25T11:57:55Z",
+     "stars": 35631,
+     "createdAt": "2019-04-12T16:09:24Z"
+    },
+    {
+     "repo": "sample-owner-1252/sounds",
+     "at": "2023-12-13T09:21:28Z",
+     "stars": 161,
+     "createdAt": "2018-12-25T18:30:26Z"
+    },
+    {
+     "repo": "sample-owner-0480/html-to-epub",
+     "at": "2023-12-09T19:57:18Z",
+     "stars": 64,
+     "createdAt": "2021-03-21T06:23:52Z"
+    },
+    {
+     "repo": "sample-owner-0081/swift-async-algorithms",
+     "at": "2023-12-08T11:49:37Z",
+     "stars": 3713,
+     "createdAt": "2022-01-10T22:02:09Z"
+    },
+    {
+     "repo": "sample-owner-0159/rubberband",
+     "at": "2023-09-19T11:25:36Z",
+     "stars": 784,
+     "createdAt": "2016-02-03T15:15:36Z"
+    },
+    {
+     "repo": "sample-owner-0569/time-stretcher",
+     "at": "2023-09-19T11:18:57Z",
+     "stars": 83,
+     "createdAt": "2021-06-05T00:18:34Z"
+    },
+    {
+     "repo": "sample-owner-1292/Whisky",
+     "at": "2023-09-12T12:21:35Z",
+     "stars": 15107,
+     "createdAt": "2023-03-23T15:05:09Z"
+    },
+    {
+     "repo": "sample-owner-0998/SwiftyObjC",
+     "at": "2023-09-04T15:29:35Z",
+     "stars": 3,
+     "createdAt": "2018-09-12T10:47:11Z"
+    },
+    {
+     "repo": "sample-owner-0763/giada",
+     "at": "2023-08-10T13:03:45Z",
+     "stars": 2088,
+     "createdAt": "2012-11-08T20:59:22Z"
+    },
+    {
+     "repo": "sample-owner-0518/music-pattern-generator",
+     "at": "2023-07-12T07:29:36Z",
+     "stars": 371,
+     "createdAt": "2016-06-02T08:25:14Z"
+    },
+    {
+     "repo": "sample-owner-0321/Cardinal",
+     "at": "2023-07-08T16:04:44Z",
+     "stars": 3200,
+     "createdAt": "2021-10-07T10:01:22Z"
+    },
+    {
+     "repo": "sample-owner-0136/eqMac",
+     "at": "2023-06-06T15:25:13Z",
+     "stars": 6794,
+     "createdAt": "2017-07-23T12:04:10Z"
+    },
+    {
+     "repo": "sample-owner-0349/E2B",
+     "at": "2023-04-04T17:54:00Z",
+     "stars": 13964,
+     "createdAt": "2023-03-04T13:41:18Z"
+    },
+    {
+     "repo": "sample-owner-0896/NAM_models",
+     "at": "2023-03-22T16:47:10Z",
+     "stars": 745,
+     "createdAt": "2023-02-06T01:25:56Z"
+    },
+    {
+     "repo": "sample-owner-1062/NeuralAmpModelerPlugin",
+     "at": "2023-03-22T16:44:10Z",
+     "stars": 3006,
+     "createdAt": "2022-12-13T03:45:48Z"
+    },
+    {
+     "repo": "sample-owner-0898/periphery",
+     "at": "2023-03-07T11:58:42Z",
+     "stars": 6182,
+     "createdAt": "2019-02-10T11:53:24Z"
+    },
+    {
+     "repo": "sample-owner-0775/ADSR",
+     "at": "2023-02-17T16:09:42Z",
+     "stars": 56,
+     "createdAt": "2022-11-21T14:40:38Z"
+    },
+    {
+     "repo": "sample-owner-0597/ysfx",
+     "at": "2023-02-14T07:57:31Z",
+     "stars": 254,
+     "createdAt": "2021-11-04T13:20:42Z"
+    },
+    {
+     "repo": "sample-owner-0981/xenos",
+     "at": "2023-02-10T12:54:36Z",
+     "stars": 137,
+     "createdAt": "2022-11-06T01:35:52Z"
+    },
+    {
+     "repo": "sample-owner-0395/BlackHole",
+     "at": "2022-07-28T19:45:07Z",
+     "stars": 19818,
+     "createdAt": "2019-09-27T18:40:46Z"
+    },
+    {
+     "repo": "sample-owner-0157/GPUImage3",
+     "at": "2021-10-21T12:39:50Z",
+     "stars": 2876,
+     "createdAt": "2018-06-17T18:00:55Z"
+    },
+    {
+     "repo": "sample-owner-0126/sample-owner-0126",
+     "at": "2021-09-20T16:22:18Z",
+     "stars": 4729,
+     "createdAt": "2016-08-14T14:36:36Z"
+    },
+    {
+     "repo": "sample-owner-0569/AnalogTapeModel",
+     "at": "2021-01-11T16:11:42Z",
+     "stars": 1432,
+     "createdAt": "2019-02-06T08:53:47Z"
+    },
+    {
+     "repo": "sample-owner-0714/Uberabout",
+     "at": "2020-12-22T14:12:37Z",
+     "stars": 102,
+     "createdAt": "2020-12-20T22:39:24Z"
+    },
+    {
+     "repo": "sample-owner-0598/wavefile",
+     "at": "2020-05-13T09:22:48Z",
+     "stars": 214,
+     "createdAt": "2009-06-19T02:38:02Z"
+    },
+    {
+     "repo": "sample-owner-0112/ClassicKit",
+     "at": "2020-04-23T10:39:58Z",
+     "stars": 2192,
+     "createdAt": "2018-05-11T06:24:57Z"
+    },
+    {
+     "repo": "sample-owner-1075/matchering",
+     "at": "2020-04-02T15:54:03Z",
+     "stars": 2646,
+     "createdAt": "2018-09-28T19:21:01Z"
+    },
+    {
+     "repo": "sample-owner-0976/radare2",
+     "at": "2019-11-13T10:19:54Z",
+     "stars": 24867,
+     "createdAt": "2012-07-03T07:42:26Z"
+    },
+    {
+     "repo": "sample-owner-0056/AltStore",
+     "at": "2019-09-27T15:42:19Z",
+     "stars": 14451,
+     "createdAt": "2019-05-10T18:29:53Z"
+    },
+    {
+     "repo": "sample-owner-0778/helm",
+     "at": "2018-12-06T17:37:42Z",
+     "stars": 2504,
+     "createdAt": "2015-01-08T07:27:12Z"
+    },
+    {
+     "repo": "sample-owner-0555/Haptico",
+     "at": "2018-11-20T11:21:49Z",
+     "stars": 503,
+     "createdAt": "2018-03-02T18:28:15Z"
+    },
+    {
+     "repo": "sample-owner-0907/AutoMate",
+     "at": "2018-09-05T16:01:32Z",
+     "stars": 289,
+     "createdAt": "2016-08-02T12:14:11Z"
+    },
+    {
+     "repo": "sample-owner-1019/TinyConstraints",
+     "at": "2018-05-29T07:18:02Z",
+     "stars": 4082,
+     "createdAt": "2017-02-05T17:33:40Z"
+    },
+    {
+     "repo": "sample-owner-0813/layout",
+     "at": "2018-04-09T14:35:48Z",
+     "stars": 2220,
+     "createdAt": "2017-08-03T10:30:57Z"
+    },
+    {
+     "repo": "sample-owner-1083/Peek",
+     "at": "2018-03-27T15:24:35Z",
+     "stars": 2568,
+     "createdAt": "2014-06-19T01:06:50Z"
+    },
+    {
+     "repo": "sample-owner-0289/HOWL",
+     "at": "2018-02-12T12:34:09Z",
+     "stars": 76,
+     "createdAt": "2015-11-14T00:53:36Z"
+    },
+    {
+     "repo": "sample-owner-0081/turicreate",
+     "at": "2017-12-11T08:59:44Z",
+     "stars": 11156,
+     "createdAt": "2017-12-01T00:42:04Z"
+    },
+    {
+     "repo": "sample-owner-0883/TransitionableTab",
+     "at": "2017-12-05T08:06:50Z",
+     "stars": 804,
+     "createdAt": "2017-11-14T16:06:11Z"
+    },
+    {
+     "repo": "sample-owner-0293/ReactiveKit",
+     "at": "2017-11-27T16:20:48Z",
+     "stars": 1236,
+     "createdAt": "2015-11-03T14:21:46Z"
+    },
+    {
+     "repo": "sample-owner-0623/KIF",
+     "at": "2017-11-20T10:11:03Z",
+     "stars": 6249,
+     "createdAt": "2011-06-02T00:54:15Z"
+    },
+    {
+     "repo": "sample-owner-0844/Awesome-ARKit",
+     "at": "2017-09-27T09:17:39Z",
+     "stars": 7986,
+     "createdAt": "2017-06-28T09:29:01Z"
+    },
+    {
+     "repo": "sample-owner-0621/PoliteReview",
+     "at": "2017-08-01T08:14:13Z",
+     "stars": 21,
+     "createdAt": "2017-08-01T04:53:11Z"
+    },
+    {
+     "repo": "sample-owner-1279/WMPageController",
+     "at": "2017-07-28T13:59:10Z",
+     "stars": 2893,
+     "createdAt": "2015-06-14T13:18:36Z"
+    },
+    {
+     "repo": "sample-owner-0722/MXSegmentedPager",
+     "at": "2017-07-28T13:59:07Z",
+     "stars": 1265,
+     "createdAt": "2015-02-25T17:47:41Z"
+    },
+    {
+     "repo": "sample-owner-1288/SwiftyHaru",
+     "at": "2017-06-06T13:27:41Z",
+     "stars": 54,
+     "createdAt": "2016-09-30T21:10:20Z"
+    },
+    {
+     "repo": "sample-owner-0359/ESTabBarController",
+     "at": "2017-05-04T08:47:54Z",
+     "stars": 5223,
+     "createdAt": "2016-05-19T15:06:39Z"
+    },
+    {
+     "repo": "sample-owner-0630/SciTuner",
+     "at": "2017-04-25T15:15:41Z",
+     "stars": 135,
+     "createdAt": "2015-09-03T20:07:45Z"
+    },
+    {
+     "repo": "sample-owner-0709/MHVideoPhotoGallery",
+     "at": "2017-04-25T11:54:51Z",
+     "stars": 1945,
+     "createdAt": "2014-01-08T14:05:52Z"
+    },
+    {
+     "repo": "sample-owner-0218/FatSidebar",
+     "at": "2017-04-17T14:40:53Z",
+     "stars": 76,
+     "createdAt": "2017-03-31T08:02:09Z"
+    },
+    {
+     "repo": "sample-owner-0693/R.swift",
+     "at": "2017-04-07T07:26:10Z",
+     "stars": 9560,
+     "createdAt": "2014-12-11T21:36:17Z"
+    },
+    {
+     "repo": "sample-owner-0924/pxctest",
+     "at": "2017-03-21T11:16:06Z",
+     "stars": 788,
+     "createdAt": "2016-11-23T10:35:38Z"
+    },
+    {
+     "repo": "sample-owner-0632/Traits",
+     "at": "2017-03-17T13:19:23Z",
+     "stars": 897,
+     "createdAt": "2017-01-02T11:59:13Z"
+    }
+   ]
+  },
+  "sample-user-13": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-1053/collaborative-text-editing-algorithms",
+     "at": "2026-09-23T18:18:24Z",
+     "stars": 1,
+     "createdAt": "2026-07-27T12:24:05Z"
+    },
+    {
+     "repo": "sample-owner-1078/riso-windowseat",
+     "at": "2026-09-23T01:51:11Z",
+     "stars": 214,
+     "createdAt": "2026-09-22T20:14:59Z"
+    },
+    {
+     "repo": "sample-owner-0702/CVE-2026-43786",
+     "at": "2026-09-21T20:57:16Z",
+     "stars": 24,
+     "createdAt": "2026-09-21T15:02:05Z"
+    },
+    {
+     "repo": "sample-owner-0580/SimplexFlame-OSX",
+     "at": "2026-09-14T15:12:15Z",
+     "stars": 2,
+     "createdAt": "2026-09-14T15:01:22Z"
+    },
+    {
+     "repo": "sample-owner-1281/USBPods-Pico2W",
+     "at": "2026-09-13T18:17:58Z",
+     "stars": 320,
+     "createdAt": "2023-07-01T04:39:08Z"
+    },
+    {
+     "repo": "sample-owner-0500/USBPods-Pico2W-2-way-audio-implement",
+     "at": "2026-09-13T18:15:09Z",
+     "stars": 5,
+     "createdAt": "2026-07-10T13:48:03Z"
+    },
+    {
+     "repo": "sample-owner-0735/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+     "at": "2026-08-30T18:23:16Z",
+     "stars": 639,
+     "createdAt": "2026-08-27T16:22:58Z"
+    },
+    {
+     "repo": "sample-owner-1137/publications",
+     "at": "2026-08-28T10:59:17Z",
+     "stars": 19,
+     "createdAt": "2026-05-02T14:29:25Z"
+    },
+    {
+     "repo": "sample-owner-0510/dson",
+     "at": "2026-08-27T15:43:06Z",
+     "stars": 194,
+     "createdAt": "2025-07-09T08:07:53Z"
+    },
+    {
+     "repo": "sample-owner-0548/inline",
+     "at": "2026-08-27T15:42:48Z",
+     "stars": 706,
+     "createdAt": "2024-09-06T15:30:05Z"
+    },
+    {
+     "repo": "sample-owner-0997/sample-owner-0997",
+     "at": "2026-08-27T15:42:07Z",
+     "stars": 1373,
+     "createdAt": "2019-05-04T06:27:50Z"
+    },
+    {
+     "repo": "sample-owner-1328/zeron",
+     "at": "2026-08-26T15:54:43Z",
+     "stars": 2226,
+     "createdAt": "2026-07-20T15:04:04Z"
+    },
+    {
+     "repo": "sample-owner-0307/determinate",
+     "at": "2026-08-26T15:47:41Z",
+     "stars": 159,
+     "createdAt": "2024-07-22T19:03:54Z"
+    },
+    {
+     "repo": "sample-owner-0060/pi-config",
+     "at": "2026-08-25T07:11:50Z",
+     "stars": 1084,
+     "createdAt": "2026-04-28T11:17:15Z"
+    },
+    {
+     "repo": "sample-owner-1221/MemoryLAN",
+     "at": "2026-08-24T18:14:56Z",
+     "stars": 3,
+     "createdAt": "2026-07-24T09:18:15Z"
+    },
+    {
+     "repo": "sample-owner-1208/DeepSeek-v4-Flash-Vision-Exp-DSpark-1M-NVFP4-KV-2x-DGX-Spark",
+     "at": "2026-08-23T11:07:39Z",
+     "stars": 486,
+     "createdAt": "2026-06-29T02:55:01Z"
+    },
+    {
+     "repo": "sample-owner-0608/applemailzeroclickcrash",
+     "at": "2026-08-20T06:08:18Z",
+     "stars": 11,
+     "createdAt": "2026-08-19T11:58:22Z"
+    },
+    {
+     "repo": "sample-owner-0171/Enigma",
+     "at": "2026-08-14T08:42:05Z",
+     "stars": 61,
+     "createdAt": "2026-06-20T22:13:04Z"
+    },
+    {
+     "repo": "sample-owner-0298/deepseek-harness",
+     "at": "2026-08-13T19:52:02Z",
+     "stars": 235729,
+     "createdAt": "2026-08-13T11:56:32Z"
+    },
+    {
+     "repo": "sample-owner-0937/prime-agent",
+     "at": "2026-08-09T20:55:44Z",
+     "stars": 21281,
+     "createdAt": "2026-05-08T01:42:41Z"
+    },
+    {
+     "repo": "sample-owner-1053/dissertation",
+     "at": "2026-08-07T13:54:24Z",
+     "stars": 1,
+     "createdAt": "2025-10-15T16:06:51Z"
+    },
+    {
+     "repo": "sample-owner-0946/mousecrack",
+     "at": "2026-08-04T20:26:52Z",
+     "stars": 81,
+     "createdAt": "2026-07-25T05:56:25Z"
+    },
+    {
+     "repo": "sample-owner-0822/opencode-cache-stats",
+     "at": "2026-08-04T20:07:46Z",
+     "stars": 24,
+     "createdAt": "2026-08-03T06:43:52Z"
+    },
+    {
+     "repo": "sample-owner-0001/clawgod",
+     "at": "2026-08-03T01:46:06Z",
+     "stars": 2063,
+     "createdAt": "2026-04-01T11:09:07Z"
+    },
+    {
+     "repo": "sample-owner-0241/claude-code",
+     "at": "2026-08-03T01:41:42Z",
+     "stars": 320,
+     "createdAt": "2026-04-18T09:16:12Z"
+    },
+    {
+     "repo": "sample-owner-0943/sample-owner-0943",
+     "at": "2026-08-01T17:13:05Z",
+     "stars": 1194,
+     "createdAt": "2023-07-09T06:07:03Z"
+    },
+    {
+     "repo": "sample-owner-0158/diamond-types",
+     "at": "2026-07-31T14:32:38Z",
+     "stars": 1,
+     "createdAt": "2026-02-15T07:22:42Z"
+    },
+    {
+     "repo": "sample-owner-0023/USD-Fileformat-plugins",
+     "at": "2026-07-30T11:47:47Z",
+     "stars": 397,
+     "createdAt": "2023-07-21T15:34:14Z"
+    },
+    {
+     "repo": "sample-owner-0565/Libraries.dev",
+     "at": "2026-07-29T22:58:51Z",
+     "stars": 3774,
+     "createdAt": "2026-04-12T17:27:34Z"
+    },
+    {
+     "repo": "sample-owner-1168/reflect-open",
+     "at": "2026-07-28T18:12:34Z",
+     "stars": 1485,
+     "createdAt": "2026-06-09T02:23:15Z"
+    },
+    {
+     "repo": "sample-owner-0412/pushpin",
+     "at": "2026-07-27T18:45:29Z",
+     "stars": 3860,
+     "createdAt": "2012-08-29T04:53:56Z"
+    },
+    {
+     "repo": "sample-owner-0140/ipsw-diffs",
+     "at": "2026-07-26T22:18:15Z",
+     "stars": 855,
+     "createdAt": "2024-06-24T19:01:38Z"
+    },
+    {
+     "repo": "sample-owner-0459/jazz",
+     "at": "2026-07-25T20:17:06Z",
+     "stars": 196,
+     "createdAt": "2026-01-04T04:42:49Z"
+    },
+    {
+     "repo": "sample-owner-0117/verified-nftables",
+     "at": "2026-07-21T14:30:11Z",
+     "stars": 3,
+     "createdAt": "2026-06-22T20:47:56Z"
+    },
+    {
+     "repo": "sample-owner-0604/colibri",
+     "at": "2026-07-19T11:56:29Z",
+     "stars": 37617,
+     "createdAt": "2026-07-01T12:27:49Z"
+    },
+    {
+     "repo": "sample-owner-0863/bireactive",
+     "at": "2026-07-12T21:32:44Z",
+     "stars": 36,
+     "createdAt": "2026-06-06T14:59:01Z"
+    },
+    {
+     "repo": "sample-owner-1154/caldir",
+     "at": "2026-07-12T12:13:12Z",
+     "stars": 71,
+     "createdAt": "2025-12-16T22:51:20Z"
+    },
+    {
+     "repo": "sample-owner-1014/rmkit",
+     "at": "2026-07-08T09:47:16Z",
+     "stars": 417,
+     "createdAt": "2020-05-30T17:15:21Z"
+    },
+    {
+     "repo": "sample-owner-0227/reSnap",
+     "at": "2026-07-08T09:47:01Z",
+     "stars": 80,
+     "createdAt": "2020-11-20T16:24:20Z"
+    },
+    {
+     "repo": "sample-owner-1189/fortress",
+     "at": "2026-07-04T10:26:13Z",
+     "stars": 651,
+     "createdAt": "2026-07-02T21:37:18Z"
+    },
+    {
+     "repo": "sample-owner-0842/nano-trm",
+     "at": "2026-07-03T13:07:33Z",
+     "stars": 127,
+     "createdAt": "2025-10-10T07:58:10Z"
+    },
+    {
+     "repo": "sample-owner-0371/pi-observational-memory",
+     "at": "2026-07-03T09:59:28Z",
+     "stars": 650,
+     "createdAt": "2026-04-14T21:41:20Z"
+    },
+    {
+     "repo": "sample-owner-1117/sqlite-vector",
+     "at": "2026-07-02T14:29:46Z",
+     "stars": 1164,
+     "createdAt": "2025-04-07T11:17:59Z"
+    },
+    {
+     "repo": "sample-owner-1241/bcm4360-wpa3",
+     "at": "2026-07-01T12:59:19Z",
+     "stars": 6,
+     "createdAt": "2026-06-28T02:26:52Z"
+    },
+    {
+     "repo": "sample-owner-0744/hacker-news-undocumented",
+     "at": "2026-07-01T12:00:13Z",
+     "stars": 3792,
+     "createdAt": "2018-02-22T14:59:25Z"
+    },
+    {
+     "repo": "sample-user-13/samsung-notes-format",
+     "at": "2026-06-30T21:26:56Z",
+     "stars": 4,
+     "createdAt": "2025-10-08T19:54:29Z"
+    },
+    {
+     "repo": "sample-owner-0682/sdocx-to-txt-python-converter",
+     "at": "2026-06-30T15:21:12Z",
+     "stars": 18,
+     "createdAt": "2021-07-07T20:16:14Z"
+    },
+    {
+     "repo": "sample-owner-1228/sdocx",
+     "at": "2026-06-30T11:32:24Z",
+     "stars": 26,
+     "createdAt": "2026-03-07T19:35:57Z"
+    },
+    {
+     "repo": "sample-owner-0132/exploitarium",
+     "at": "2026-06-28T18:37:57Z",
+     "stars": 5139,
+     "createdAt": "2026-06-23T05:14:11Z"
+    },
+    {
+     "repo": "sample-owner-1255/just-bash",
+     "at": "2026-06-25T06:27:31Z",
+     "stars": 4322,
+     "createdAt": "2025-12-23T17:10:51Z"
+    },
+    {
+     "repo": "sample-owner-0338/learning-opportunities",
+     "at": "2026-06-21T19:56:19Z",
+     "stars": 2465,
+     "createdAt": "2026-02-07T20:48:22Z"
+    },
+    {
+     "repo": "sample-owner-0338/learning-goal",
+     "at": "2026-06-21T19:56:16Z",
+     "stars": 264,
+     "createdAt": "2026-02-25T01:12:26Z"
+    },
+    {
+     "repo": "sample-owner-0314/ponytail",
+     "at": "2026-06-20T17:44:48Z",
+     "stars": 145790,
+     "createdAt": "2026-06-12T00:52:37Z"
+    },
+    {
+     "repo": "sample-owner-0280/spheni",
+     "at": "2026-06-19T15:04:36Z",
+     "stars": 189,
+     "createdAt": "2026-01-25T11:09:46Z"
+    },
+    {
+     "repo": "sample-owner-0280/yars",
+     "at": "2026-06-19T13:47:49Z",
+     "stars": 235,
+     "createdAt": "2024-09-10T13:18:18Z"
+    },
+    {
+     "repo": "sample-owner-1326/sample-owner-1326",
+     "at": "2026-06-16T09:02:43Z",
+     "stars": 2498,
+     "createdAt": "2026-04-11T16:32:15Z"
+    },
+    {
+     "repo": "sample-owner-0527/CVE-2025-43300",
+     "at": "2026-06-15T12:51:23Z",
+     "stars": 119,
+     "createdAt": "2025-08-24T15:48:41Z"
+    },
+    {
+     "repo": "sample-owner-1010/rmscene",
+     "at": "2026-06-12T11:50:17Z",
+     "stars": 153,
+     "createdAt": "2023-01-09T20:50:38Z"
+    },
+    {
+     "repo": "sample-owner-1249/resume-tailoring-skill",
+     "at": "2026-06-09T09:16:01Z",
+     "stars": 755,
+     "createdAt": "2025-11-01T00:06:23Z"
+    },
+    {
+     "repo": "sample-owner-0882/ResumeSkills",
+     "at": "2026-06-09T09:15:20Z",
+     "stars": 2458,
+     "createdAt": "2026-01-30T10:29:46Z"
+    },
+    {
+     "repo": "sample-owner-1238/crawl4ai",
+     "at": "2026-06-08T11:56:20Z",
+     "stars": 84249,
+     "createdAt": "2024-05-09T09:48:50Z"
+    },
+    {
+     "repo": "sample-owner-0737/markitdown",
+     "at": "2026-06-08T10:33:59Z",
+     "stars": 186981,
+     "createdAt": "2024-11-13T19:56:40Z"
+    },
+    {
+     "repo": "sample-owner-0222/CloakBrowser",
+     "at": "2026-06-08T10:17:32Z",
+     "stars": 31693,
+     "createdAt": "2026-02-22T08:09:57Z"
+    },
+    {
+     "repo": "sample-owner-1255/agent-browser",
+     "at": "2026-06-08T10:14:39Z",
+     "stars": 43181,
+     "createdAt": "2026-01-11T05:38:15Z"
+    },
+    {
+     "repo": "sample-owner-0429/pi-agent-browser-native",
+     "at": "2026-06-08T08:45:38Z",
+     "stars": 227,
+     "createdAt": "2026-04-09T14:01:59Z"
+    },
+    {
+     "repo": "sample-owner-1262/Botright",
+     "at": "2026-06-08T08:38:39Z",
+     "stars": 1029,
+     "createdAt": "2022-09-09T17:35:25Z"
+    },
+    {
+     "repo": "sample-owner-0271/camoufox",
+     "at": "2026-06-07T21:11:12Z",
+     "stars": 12128,
+     "createdAt": "2024-07-26T11:31:27Z"
+    },
+    {
+     "repo": "sample-owner-1128/steel-browser",
+     "at": "2026-06-07T20:40:13Z",
+     "stars": 7692,
+     "createdAt": "2024-11-01T18:15:29Z"
+    },
+    {
+     "repo": "sample-owner-0610/patchright",
+     "at": "2026-06-07T19:45:13Z",
+     "stars": 4677,
+     "createdAt": "2023-11-07T19:50:56Z"
+    },
+    {
+     "repo": "sample-owner-0664/lima",
+     "at": "2026-06-07T13:04:08Z",
+     "stars": 21968,
+     "createdAt": "2021-05-14T07:30:56Z"
+    },
+    {
+     "repo": "sample-owner-0396/exo",
+     "at": "2026-06-06T16:16:54Z",
+     "stars": 47639,
+     "createdAt": "2024-06-24T18:36:22Z"
+    },
+    {
+     "repo": "sample-owner-0336/dragonfly",
+     "at": "2026-06-06T13:00:37Z",
+     "stars": 31679,
+     "createdAt": "2021-12-11T10:00:42Z"
+    },
+    {
+     "repo": "sample-owner-1194/pi-subagents",
+     "at": "2026-05-28T00:37:26Z",
+     "stars": 1216,
+     "createdAt": "2026-03-05T10:08:27Z"
+    },
+    {
+     "repo": "sample-owner-1150/pi-acp",
+     "at": "2026-05-27T20:58:46Z",
+     "stars": 702,
+     "createdAt": "2025-12-19T05:05:24Z"
+    },
+    {
+     "repo": "sample-user-13/pi-deepseek-search",
+     "at": "2026-05-26T03:16:57Z",
+     "stars": 34,
+     "createdAt": "2026-05-25T02:58:21Z"
+    },
+    {
+     "repo": "sample-owner-0426/sample-owner-0426",
+     "at": "2026-05-24T22:42:34Z",
+     "stars": 184536,
+     "createdAt": "2024-04-15T21:02:29Z"
+    },
+    {
+     "repo": "sample-owner-0286/better-context",
+     "at": "2026-05-24T21:52:53Z",
+     "stars": 1153,
+     "createdAt": "2025-11-29T00:56:58Z"
+    },
+    {
+     "repo": "sample-owner-0286/my-pi-setup",
+     "at": "2026-05-24T21:06:15Z",
+     "stars": 1070,
+     "createdAt": "2026-04-30T22:06:02Z"
+    },
+    {
+     "repo": "sample-owner-1114/multi-cli",
+     "at": "2026-05-21T23:12:14Z",
+     "stars": 244,
+     "createdAt": "2026-04-26T14:58:57Z"
+    },
+    {
+     "repo": "sample-owner-0421/n_gsm_exploit",
+     "at": "2026-05-21T15:59:57Z",
+     "stars": 12,
+     "createdAt": "2024-04-11T02:21:31Z"
+    },
+    {
+     "repo": "sample-owner-0026/Brovan",
+     "at": "2026-05-18T20:51:16Z",
+     "stars": 164,
+     "createdAt": "2026-05-15T02:12:23Z"
+    },
+    {
+     "repo": "sample-owner-0487/Jackalope",
+     "at": "2026-05-14T00:38:44Z",
+     "stars": 1380,
+     "createdAt": "2020-12-15T15:09:59Z"
+    },
+    {
+     "repo": "sample-owner-0441/numasec",
+     "at": "2026-05-08T13:54:59Z",
+     "stars": 792,
+     "createdAt": "2026-02-02T11:31:26Z"
+    },
+    {
+     "repo": "sample-owner-1063/sample-owner-1063",
+     "at": "2026-05-07T12:53:49Z",
+     "stars": 25630,
+     "createdAt": "2009-09-21T17:39:19Z"
+    },
+    {
+     "repo": "sample-owner-0525/binja-headless",
+     "at": "2026-05-03T20:02:51Z",
+     "stars": 73,
+     "createdAt": "2021-07-02T01:09:18Z"
+    },
+    {
+     "repo": "sample-owner-0774/binary-ninja-headless-mcp",
+     "at": "2026-05-03T20:02:16Z",
+     "stars": 247,
+     "createdAt": "2026-03-03T15:37:01Z"
+    },
+    {
+     "repo": "sample-owner-0945/vaultsync",
+     "at": "2026-04-23T02:39:53Z",
+     "stars": 142,
+     "createdAt": "2026-04-06T15:38:12Z"
+    },
+    {
+     "repo": "sample-owner-0507/headroom",
+     "at": "2026-04-20T02:27:18Z",
+     "stars": 73785,
+     "createdAt": "2026-01-07T19:58:51Z"
+    },
+    {
+     "repo": "sample-owner-1057/distill",
+     "at": "2026-04-20T02:27:14Z",
+     "stars": 689,
+     "createdAt": "2026-03-06T14:37:09Z"
+    },
+    {
+     "repo": "sample-owner-1031/rtk",
+     "at": "2026-04-20T02:27:04Z",
+     "stars": 81695,
+     "createdAt": "2026-01-22T16:54:16Z"
+    },
+    {
+     "repo": "sample-owner-0468/headroom-desktop",
+     "at": "2026-04-20T02:27:03Z",
+     "stars": 573,
+     "createdAt": "2026-03-30T15:44:19Z"
+    },
+    {
+     "repo": "sample-owner-1297/skills",
+     "at": "2026-04-18T22:23:49Z",
+     "stars": 177,
+     "createdAt": "2026-02-14T01:05:02Z"
+    },
+    {
+     "repo": "sample-owner-0363/OBLITERATUS",
+     "at": "2026-04-13T19:37:35Z",
+     "stars": 8463,
+     "createdAt": "2026-03-03T19:37:51Z"
+    },
+    {
+     "repo": "sample-owner-0366/HackBench",
+     "at": "2026-04-13T15:59:56Z",
+     "stars": 83,
+     "createdAt": "2025-02-05T12:21:03Z"
+    },
+    {
+     "repo": "sample-owner-0615/antigravity-chat-recovery",
+     "at": "2026-04-13T01:34:31Z",
+     "stars": 15,
+     "createdAt": "2026-03-27T15:36:19Z"
+    },
+    {
+     "repo": "sample-owner-0189/career-ops",
+     "at": "2026-04-11T18:25:18Z",
+     "stars": 72712,
+     "createdAt": "2026-04-04T18:21:18Z"
+    },
+    {
+     "repo": "sample-owner-0345/sample-owner-0345",
+     "at": "2026-04-04T15:04:54Z",
+     "stars": 523,
+     "createdAt": "2021-04-07T08:13:23Z"
+    },
+    {
+     "repo": "sample-owner-0846/onlook",
+     "at": "2026-04-04T15:04:48Z",
+     "stars": 26810,
+     "createdAt": "2024-06-25T19:16:02Z"
+    },
+    {
+     "repo": "sample-owner-1021/mono",
+     "at": "2026-04-04T15:04:35Z",
+     "stars": 3392,
+     "createdAt": "2023-02-09T04:42:21Z"
+    },
+    {
+     "repo": "sample-owner-0141/humanizer",
+     "at": "2026-04-01T18:23:25Z",
+     "stars": 51961,
+     "createdAt": "2026-01-18T05:30:15Z"
+    }
+   ]
+  },
+  "sample-user-12": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-1078/riso-windowseat",
+     "at": "2026-09-23T02:46:11Z",
+     "stars": 214,
+     "createdAt": "2026-09-22T20:14:59Z"
+    },
+    {
+     "repo": "sample-owner-0679/remux",
+     "at": "2026-09-07T03:42:32Z",
+     "stars": 556,
+     "createdAt": "2026-02-27T13:26:15Z"
+    },
+    {
+     "repo": "sample-owner-0679/Gelato",
+     "at": "2026-08-21T03:59:37Z",
+     "stars": 816,
+     "createdAt": "2025-08-27T11:50:11Z"
+    },
+    {
+     "repo": "sample-user-12/nook-app-referral-code",
+     "at": "2026-06-04T19:42:48Z",
+     "stars": 1,
+     "createdAt": "2026-04-27T03:49:15Z"
+    },
+    {
+     "repo": "sample-owner-0815/PgQue",
+     "at": "2026-05-04T14:27:10Z",
+     "stars": 1832,
+     "createdAt": "2026-04-13T00:06:44Z"
+    },
+    {
+     "repo": "sample-owner-1174/TML-Database",
+     "at": "2026-05-04T00:56:37Z",
+     "stars": 84,
+     "createdAt": "2020-02-05T18:06:37Z"
+    },
+    {
+     "repo": "sample-owner-0874/turnstile",
+     "at": "2026-04-29T20:18:00Z",
+     "stars": 12,
+     "createdAt": "2026-04-16T22:22:43Z"
+    },
+    {
+     "repo": "sample-owner-0601/caveman",
+     "at": "2026-04-14T18:39:03Z",
+     "stars": 107806,
+     "createdAt": "2026-04-04T10:03:00Z"
+    },
+    {
+     "repo": "sample-owner-0092/arctic_shift",
+     "at": "2026-02-23T04:11:32Z",
+     "stars": 1555,
+     "createdAt": "2023-08-03T08:25:15Z"
+    },
+    {
+     "repo": "sample-owner-0464/conductor",
+     "at": "2026-02-17T15:17:21Z",
+     "stars": 3746,
+     "createdAt": "2025-12-17T03:25:48Z"
+    },
+    {
+     "repo": "sample-owner-0072/opencode",
+     "at": "2026-01-19T15:06:50Z",
+     "stars": 209976,
+     "createdAt": "2025-04-30T20:08:00Z"
+    },
+    {
+     "repo": "sample-owner-0212/terraform-provider-circleci",
+     "at": "2025-10-03T18:08:45Z",
+     "stars": 21,
+     "createdAt": "2025-02-27T00:59:51Z"
+    },
+    {
+     "repo": "sample-owner-0643/pgtune",
+     "at": "2025-09-30T14:46:07Z",
+     "stars": 2743,
+     "createdAt": "2014-03-21T13:29:14Z"
+    },
+    {
+     "repo": "sample-owner-0211/platform-team-configs",
+     "at": "2025-09-29T19:10:03Z",
+     "stars": 10,
+     "createdAt": "2025-06-09T13:17:19Z"
+    },
+    {
+     "repo": "sample-owner-0303/k9s",
+     "at": "2025-08-19T02:29:03Z",
+     "stars": 34674,
+     "createdAt": "2019-01-25T18:46:02Z"
+    },
+    {
+     "repo": "sample-owner-0471/sample-owner-0471-mcp-server",
+     "at": "2025-08-06T14:59:09Z",
+     "stars": 33188,
+     "createdAt": "2025-03-04T16:42:04Z"
+    },
+    {
+     "repo": "sample-owner-0411/fasten-onprem",
+     "at": "2025-07-28T17:06:48Z",
+     "stars": 2795,
+     "createdAt": "2022-08-23T00:51:45Z"
+    },
+    {
+     "repo": "sample-owner-0343/ducklake",
+     "at": "2025-07-07T03:31:11Z",
+     "stars": 3000,
+     "createdAt": "2025-03-03T16:01:19Z"
+    },
+    {
+     "repo": "sample-owner-0332/dolt",
+     "at": "2025-07-07T03:31:04Z",
+     "stars": 24512,
+     "createdAt": "2019-07-24T17:46:25Z"
+    },
+    {
+     "repo": "sample-owner-0574/Sky.app",
+     "at": "2025-06-27T21:31:11Z",
+     "stars": 333,
+     "createdAt": "2023-04-26T13:57:14Z"
+    },
+    {
+     "repo": "sample-owner-0627/all-the-bufo",
+     "at": "2025-06-27T17:55:36Z",
+     "stars": 474,
+     "createdAt": "2022-11-09T16:48:14Z"
+    },
+    {
+     "repo": "sample-owner-0622/pinchflat",
+     "at": "2025-05-29T23:37:43Z",
+     "stars": 5372,
+     "createdAt": "2024-01-19T04:45:13Z"
+    },
+    {
+     "repo": "sample-owner-0052/metube",
+     "at": "2025-05-29T23:34:41Z",
+     "stars": 14846,
+     "createdAt": "2019-11-29T17:24:51Z"
+    },
+    {
+     "repo": "sample-owner-0935/prometheus-prefect-exporter",
+     "at": "2025-05-29T19:16:58Z",
+     "stars": 35,
+     "createdAt": "2023-09-20T09:53:37Z"
+    },
+    {
+     "repo": "sample-owner-0890/CodeSignal_Practice_Industry_Coding_Framework",
+     "at": "2025-04-26T21:22:56Z",
+     "stars": 427,
+     "createdAt": "2024-02-29T18:37:47Z"
+    },
+    {
+     "repo": "sample-owner-0935/terraform-provider-prefect",
+     "at": "2025-04-02T21:02:21Z",
+     "stars": 40,
+     "createdAt": "2022-04-13T17:34:14Z"
+    },
+    {
+     "repo": "sample-owner-0083/trivy",
+     "at": "2025-02-18T15:39:41Z",
+     "stars": 38069,
+     "createdAt": "2019-04-11T01:01:07Z"
+    },
+    {
+     "repo": "sample-owner-1226/tuva-core",
+     "at": "2024-12-18T22:36:42Z",
+     "stars": 326,
+     "createdAt": "2021-11-12T15:45:39Z"
+    },
+    {
+     "repo": "sample-owner-0589/tailscale-on-raspberry-pi",
+     "at": "2024-12-17T20:43:22Z",
+     "stars": 265,
+     "createdAt": "2024-11-28T20:31:21Z"
+    },
+    {
+     "repo": "sample-owner-1166/sgpt",
+     "at": "2024-10-31T16:41:50Z",
+     "stars": 461,
+     "createdAt": "2023-02-25T19:21:49Z"
+    },
+    {
+     "repo": "sample-owner-1219/pr-reviewer",
+     "at": "2024-10-31T16:29:39Z",
+     "stars": 73,
+     "createdAt": "2023-04-16T01:21:05Z"
+    },
+    {
+     "repo": "sample-owner-0337/terraform-provider-sftpgo",
+     "at": "2024-09-30T22:03:41Z",
+     "stars": 36,
+     "createdAt": "2023-04-01T16:52:50Z"
+    },
+    {
+     "repo": "sample-owner-0167/openfpga-GBC",
+     "at": "2024-09-29T05:58:07Z",
+     "stars": 305,
+     "createdAt": "2023-12-28T21:56:58Z"
+    },
+    {
+     "repo": "sample-owner-0837/Hello-World",
+     "at": "2024-09-25T18:59:26Z",
+     "stars": 3826,
+     "createdAt": "2011-01-26T19:01:12Z"
+    },
+    {
+     "repo": "sample-owner-0479/migrate",
+     "at": "2024-09-04T15:14:06Z",
+     "stars": 18941,
+     "createdAt": "2018-01-19T09:30:58Z"
+    },
+    {
+     "repo": "sample-owner-0933/sample-owner-0933-hooks",
+     "at": "2024-08-23T18:40:27Z",
+     "stars": 6688,
+     "createdAt": "2014-03-13T15:21:46Z"
+    },
+    {
+     "repo": "sample-owner-0933/sample-owner-0933",
+     "at": "2024-08-23T18:39:39Z",
+     "stars": 15594,
+     "createdAt": "2014-03-13T00:39:38Z"
+    },
+    {
+     "repo": "sample-owner-0485/kaniko",
+     "at": "2024-08-14T18:40:45Z",
+     "stars": 15767,
+     "createdAt": "2018-01-29T17:53:54Z"
+    },
+    {
+     "repo": "sample-owner-0041/awesome-git-hooks",
+     "at": "2024-06-24T16:16:45Z",
+     "stars": 979,
+     "createdAt": "2018-11-27T17:40:52Z"
+    },
+    {
+     "repo": "sample-owner-0800/act",
+     "at": "2024-05-23T12:57:35Z",
+     "stars": 72117,
+     "createdAt": "2019-01-02T19:53:43Z"
+    },
+    {
+     "repo": "sample-owner-0197/cedar-examples",
+     "at": "2024-05-20T16:39:06Z",
+     "stars": 121,
+     "createdAt": "2023-04-18T16:50:40Z"
+    },
+    {
+     "repo": "sample-owner-1018/sso-wall-of-shame",
+     "at": "2024-04-22T15:56:17Z",
+     "stars": 909,
+     "createdAt": "2018-10-17T18:27:25Z"
+    },
+    {
+     "repo": "sample-owner-0128/migrate-ecs-eks",
+     "at": "2024-03-12T14:38:24Z",
+     "stars": 2,
+     "createdAt": "2023-02-28T06:05:46Z"
+    },
+    {
+     "repo": "sample-owner-0058/spotify-etl-aws-data-pipeline-project",
+     "at": "2024-02-21T03:58:15Z",
+     "stars": 3,
+     "createdAt": "2023-04-29T06:29:02Z"
+    },
+    {
+     "repo": "sample-owner-0115/node",
+     "at": "2024-02-20T04:25:38Z",
+     "stars": 68367,
+     "createdAt": "2023-02-01T13:55:02Z"
+    },
+    {
+     "repo": "sample-owner-0115/chains",
+     "at": "2024-02-20T04:25:29Z",
+     "stars": 78648,
+     "createdAt": "2023-02-21T21:48:44Z"
+    },
+    {
+     "repo": "sample-owner-0261/framedl",
+     "at": "2024-02-11T02:26:14Z",
+     "stars": 10,
+     "createdAt": "2024-02-05T13:12:26Z"
+    },
+    {
+     "repo": "sample-owner-0283/awesome-frames",
+     "at": "2024-02-09T21:16:28Z",
+     "stars": 485,
+     "createdAt": "2024-01-31T18:20:45Z"
+    },
+    {
+     "repo": "sample-owner-1283/curta",
+     "at": "2024-02-04T23:32:30Z",
+     "stars": 136,
+     "createdAt": "2022-11-21T09:17:01Z"
+    },
+    {
+     "repo": "sample-owner-0013/awesome-farcaster",
+     "at": "2024-02-04T23:01:33Z",
+     "stars": 817,
+     "createdAt": "2023-01-04T16:50:51Z"
+    },
+    {
+     "repo": "sample-owner-0125/node-config",
+     "at": "2024-01-26T04:51:54Z",
+     "stars": 13,
+     "createdAt": "2023-06-12T17:04:57Z"
+    },
+    {
+     "repo": "sample-owner-0125/devnet-in-a-box",
+     "at": "2024-01-26T04:33:59Z",
+     "stars": 4,
+     "createdAt": "2023-09-25T21:17:09Z"
+    },
+    {
+     "repo": "sample-owner-0352/eclipse-deposit",
+     "at": "2024-01-26T02:55:48Z",
+     "stars": 115,
+     "createdAt": "2023-12-12T19:12:22Z"
+    },
+    {
+     "repo": "sample-owner-0481/goblet",
+     "at": "2024-01-23T22:02:33Z",
+     "stars": 192,
+     "createdAt": "2020-04-24T18:43:32Z"
+    },
+    {
+     "repo": "sample-owner-0214/stacks",
+     "at": "2024-01-23T18:47:34Z",
+     "stars": 189,
+     "createdAt": "2023-03-15T20:40:01Z"
+    },
+    {
+     "repo": "sample-owner-0668/preevy",
+     "at": "2024-01-17T21:24:01Z",
+     "stars": 2230,
+     "createdAt": "2023-02-23T11:51:49Z"
+    },
+    {
+     "repo": "sample-owner-0541/colorize_cloudwatch_logs",
+     "at": "2024-01-15T21:22:26Z",
+     "stars": 18,
+     "createdAt": "2018-12-13T19:14:36Z"
+    },
+    {
+     "repo": "sample-owner-0334/paths-filter",
+     "at": "2024-01-15T04:08:33Z",
+     "stars": 3341,
+     "createdAt": "2020-05-20T15:03:07Z"
+    },
+    {
+     "repo": "sample-owner-0329/build-push-action",
+     "at": "2024-01-15T02:52:06Z",
+     "stars": 5410,
+     "createdAt": "2020-02-17T11:35:27Z"
+    },
+    {
+     "repo": "sample-owner-1069/sentinel-dvpnhealthx",
+     "at": "2024-01-14T15:55:18Z",
+     "stars": 2,
+     "createdAt": "2023-11-24T06:21:20Z"
+    },
+    {
+     "repo": "sample-owner-0516/generative-art",
+     "at": "2024-01-12T20:37:07Z",
+     "stars": 103,
+     "createdAt": "2023-05-12T15:06:38Z"
+    },
+    {
+     "repo": "sample-owner-0354/restake",
+     "at": "2024-01-05T13:31:38Z",
+     "stars": 372,
+     "createdAt": "2022-02-28T00:56:07Z"
+    },
+    {
+     "repo": "sample-owner-0448/dvpn_price",
+     "at": "2024-01-04T18:30:39Z",
+     "stars": 6,
+     "createdAt": "2022-07-09T15:49:59Z"
+    },
+    {
+     "repo": "sample-owner-0255/gaia",
+     "at": "2023-12-31T04:21:59Z",
+     "stars": 574,
+     "createdAt": "2019-04-02T19:04:40Z"
+    },
+    {
+     "repo": "sample-owner-1069/sentinel-dvpnx",
+     "at": "2023-12-31T01:06:26Z",
+     "stars": 138,
+     "createdAt": "2019-06-25T10:05:18Z"
+    },
+    {
+     "repo": "sample-owner-0372/aaronson-oracle",
+     "at": "2023-11-03T17:40:59Z",
+     "stars": 857,
+     "createdAt": "2016-06-02T06:59:39Z"
+    },
+    {
+     "repo": "sample-owner-1177/action",
+     "at": "2023-09-01T20:57:06Z",
+     "stars": 16,
+     "createdAt": "2021-12-08T07:30:29Z"
+    },
+    {
+     "repo": "sample-owner-1176/terraform-aws-lambda",
+     "at": "2023-09-01T19:45:19Z",
+     "stars": 1041,
+     "createdAt": "2020-06-02T14:42:42Z"
+    },
+    {
+     "repo": "sample-owner-0347/pocket-platform-images",
+     "at": "2023-08-31T04:06:07Z",
+     "stars": 91,
+     "createdAt": "2022-11-15T03:32:34Z"
+    },
+    {
+     "repo": "sample-owner-1007/Pocket_Updater",
+     "at": "2023-08-31T03:57:30Z",
+     "stars": 600,
+     "createdAt": "2022-08-22T19:42:11Z"
+    },
+    {
+     "repo": "sample-owner-0983/ray",
+     "at": "2023-08-02T20:50:47Z",
+     "stars": 43924,
+     "createdAt": "2016-10-25T19:38:30Z"
+    },
+    {
+     "repo": "sample-owner-0079/distsys-class",
+     "at": "2023-07-06T20:30:56Z",
+     "stars": 9886,
+     "createdAt": "2016-04-01T20:39:47Z"
+    },
+    {
+     "repo": "sample-owner-0454/VerySeriousButton-VerySeriousSetup",
+     "at": "2023-03-03T21:31:11Z",
+     "stars": 13,
+     "createdAt": "2014-08-27T06:37:41Z"
+    },
+    {
+     "repo": "sample-owner-0119/sample-owner-0119",
+     "at": "2023-02-09T22:28:59Z",
+     "stars": 6280,
+     "createdAt": "2017-09-19T21:28:20Z"
+    },
+    {
+     "repo": "sample-owner-0269/dpkg-licenses",
+     "at": "2023-01-18T17:25:19Z",
+     "stars": 177,
+     "createdAt": "2016-02-09T14:25:17Z"
+    },
+    {
+     "repo": "sample-owner-0750/misbrands",
+     "at": "2022-12-27T16:14:20Z",
+     "stars": 9046,
+     "createdAt": "2019-08-26T08:48:57Z"
+    },
+    {
+     "repo": "sample-owner-0979/sharpkeys",
+     "at": "2022-12-02T23:50:26Z",
+     "stars": 6968,
+     "createdAt": "2017-04-12T15:33:02Z"
+    },
+    {
+     "repo": "sample-owner-1032/finch",
+     "at": "2022-11-28T18:00:08Z",
+     "stars": 4067,
+     "createdAt": "2022-11-07T08:38:12Z"
+    },
+    {
+     "repo": "sample-owner-0447/magic8",
+     "at": "2022-11-22T22:07:23Z",
+     "stars": 1,
+     "createdAt": "2022-09-03T15:51:03Z"
+    },
+    {
+     "repo": "sample-owner-0784/sample-owner-0784",
+     "at": "2022-11-18T16:42:36Z",
+     "stars": 3471,
+     "createdAt": "2014-09-19T06:51:32Z"
+    },
+    {
+     "repo": "sample-owner-0208/badssl.com",
+     "at": "2022-11-03T19:07:46Z",
+     "stars": 3050,
+     "createdAt": "2015-04-07T22:37:47Z"
+    },
+    {
+     "repo": "sample-owner-0208/hstspreload.org",
+     "at": "2022-11-03T19:07:21Z",
+     "stars": 874,
+     "createdAt": "2016-04-26T06:12:32Z"
+    },
+    {
+     "repo": "sample-owner-0748/rc-niceties",
+     "at": "2022-10-27T14:32:33Z",
+     "stars": 14,
+     "createdAt": "2016-08-10T19:58:56Z"
+    },
+    {
+     "repo": "sample-owner-1135/github-task-list-completed",
+     "at": "2022-10-19T23:49:58Z",
+     "stars": 151,
+     "createdAt": "2019-04-25T23:31:09Z"
+    },
+    {
+     "repo": "sample-owner-0011/aws-sso-util",
+     "at": "2022-09-09T04:58:01Z",
+     "stars": 1053,
+     "createdAt": "2020-05-09T17:58:43Z"
+    },
+    {
+     "repo": "sample-owner-0869/API-Security",
+     "at": "2022-09-05T15:41:50Z",
+     "stars": 2367,
+     "createdAt": "2019-01-10T19:05:28Z"
+    },
+    {
+     "repo": "sample-owner-0869/Top10",
+     "at": "2022-09-02T19:12:42Z",
+     "stars": 6151,
+     "createdAt": "2016-08-30T15:46:11Z"
+    },
+    {
+     "repo": "sample-owner-0965/safety",
+     "at": "2022-09-02T16:54:09Z",
+     "stars": 1996,
+     "createdAt": "2016-10-19T13:22:56Z"
+    },
+    {
+     "repo": "sample-owner-0787/WaveFunctionCollapse",
+     "at": "2022-08-31T18:16:21Z",
+     "stars": 25343,
+     "createdAt": "2016-09-30T11:53:17Z"
+    },
+    {
+     "repo": "sample-owner-0247/watchtower",
+     "at": "2022-08-29T15:37:21Z",
+     "stars": 24646,
+     "createdAt": "2015-07-13T21:21:53Z"
+    },
+    {
+     "repo": "sample-owner-0108/biotech-blueprint-multi-account",
+     "at": "2022-08-18T16:16:13Z",
+     "stars": 37,
+     "createdAt": "2020-07-22T13:29:50Z"
+    },
+    {
+     "repo": "sample-owner-0108/aws-security-reference-architecture-examples",
+     "at": "2022-08-18T15:44:39Z",
+     "stars": 1158,
+     "createdAt": "2020-08-19T20:16:05Z"
+    },
+    {
+     "repo": "sample-owner-0812/ghas-enablement",
+     "at": "2022-08-17T22:37:48Z",
+     "stars": 157,
+     "createdAt": "2021-08-10T13:25:25Z"
+    },
+    {
+     "repo": "sample-owner-0471/codeql-action",
+     "at": "2022-08-15T17:23:33Z",
+     "stars": 1648,
+     "createdAt": "2020-04-27T20:36:30Z"
+    },
+    {
+     "repo": "sample-owner-0282/endgame",
+     "at": "2022-08-15T14:32:30Z",
+     "stars": 210,
+     "createdAt": "2021-02-16T15:13:15Z"
+    },
+    {
+     "repo": "sample-owner-1193/deterministic-zip",
+     "at": "2022-08-12T15:23:06Z",
+     "stars": 65,
+     "createdAt": "2021-06-02T22:46:46Z"
+    },
+    {
+     "repo": "sample-owner-0249/sample-owner-0249-django",
+     "at": "2022-07-06T20:38:27Z",
+     "stars": 13610,
+     "createdAt": "2013-08-14T17:43:31Z"
+    },
+    {
+     "repo": "sample-owner-0071/aws-lambda-ocaml-runtime",
+     "at": "2022-07-06T18:56:32Z",
+     "stars": 207,
+     "createdAt": "2018-12-01T21:03:23Z"
+    },
+    {
+     "repo": "sample-owner-0741/gamekid",
+     "at": "2022-06-28T16:06:34Z",
+     "stars": 239,
+     "createdAt": "2019-01-08T22:15:42Z"
+    },
+    {
+     "repo": "sample-owner-0185/lit",
+     "at": "2022-06-16T19:40:52Z",
+     "stars": 1869,
+     "createdAt": "2017-12-29T01:26:21Z"
+    }
+   ]
+  },
+  "sample-user-09": {
+   "pages": 1,
+   "items": [
+    {
+     "repo": "sample-owner-0940/webppl",
+     "at": "2026-09-23T13:15:41Z",
+     "stars": 638,
+     "createdAt": "2014-08-08T16:33:58Z"
+    },
+    {
+     "repo": "sample-owner-1078/riso-windowseat",
+     "at": "2026-09-23T10:31:11Z",
+     "stars": 214,
+     "createdAt": "2026-09-22T20:14:59Z"
+    },
+    {
+     "repo": "sample-owner-0407/microduck-replica",
+     "at": "2026-09-23T08:31:12Z",
+     "stars": 1008,
+     "createdAt": "2026-08-28T13:42:48Z"
+    },
+    {
+     "repo": "sample-owner-0856/OpenCut",
+     "at": "2026-09-22T17:03:45Z",
+     "stars": 90650,
+     "createdAt": "2025-06-22T08:02:17Z"
+    },
+    {
+     "repo": "sample-owner-0793/laya",
+     "at": "2026-09-21T17:52:39Z",
+     "stars": 24067,
+     "createdAt": "2026-09-18T04:46:33Z"
+    },
+    {
+     "repo": "sample-owner-0281/esp32-llm",
+     "at": "2026-09-21T12:58:54Z",
+     "stars": 632,
+     "createdAt": "2024-09-03T22:31:37Z"
+    },
+    {
+     "repo": "sample-owner-0532/esp_ai",
+     "at": "2026-09-21T05:56:13Z",
+     "stars": 17,
+     "createdAt": "2026-09-19T05:58:34Z"
+    },
+    {
+     "repo": "sample-owner-0495/awesome-open-source-robotics",
+     "at": "2026-09-17T18:54:11Z",
+     "stars": 36,
+     "createdAt": "2024-12-17T20:44:48Z"
+    },
+    {
+     "repo": "sample-owner-0462/gz-sim",
+     "at": "2026-09-17T10:42:43Z",
+     "stars": 1515,
+     "createdAt": "2020-04-15T09:17:50Z"
+    },
+    {
+     "repo": "sample-owner-0483/mujoco",
+     "at": "2026-09-17T10:41:27Z",
+     "stars": 15329,
+     "createdAt": "2021-08-27T12:25:48Z"
+    },
+    {
+     "repo": "sample-owner-0524/lerobot",
+     "at": "2026-09-17T10:32:11Z",
+     "stars": 27773,
+     "createdAt": "2024-01-26T15:50:41Z"
+    },
+    {
+     "repo": "sample-owner-0579/WeatherPaper",
+     "at": "2026-09-17T10:14:13Z",
+     "stars": 100,
+     "createdAt": "2026-06-14T13:42:55Z"
+    },
+    {
+     "repo": "sample-owner-1329/zeroth-bot",
+     "at": "2026-09-17T08:15:38Z",
+     "stars": 832,
+     "createdAt": "2024-09-03T06:48:40Z"
+    },
+    {
+     "repo": "sample-owner-1056/sopro",
+     "at": "2026-09-16T21:35:51Z",
+     "stars": 958,
+     "createdAt": "2025-12-30T16:32:34Z"
+    },
+    {
+     "repo": "sample-owner-1132/awesome-open-source-robots",
+     "at": "2026-09-16T21:09:37Z",
+     "stars": 301,
+     "createdAt": "2022-04-25T15:39:30Z"
+    },
+    {
+     "repo": "sample-owner-0316/PCB-Bench",
+     "at": "2026-09-16T10:22:03Z",
+     "stars": 47,
+     "createdAt": "2026-02-28T12:28:45Z"
+    },
+    {
+     "repo": "sample-owner-1117/warp",
+     "at": "2026-09-15T19:30:38Z",
+     "stars": 2445,
+     "createdAt": "2026-07-28T20:56:00Z"
+    },
+    {
+     "repo": "sample-owner-0196/JLCPCB-Kicad-Library",
+     "at": "2026-09-15T07:32:38Z",
+     "stars": 580,
+     "createdAt": "2023-08-13T21:03:06Z"
+    },
+    {
+     "repo": "sample-owner-0196/Auckland-LED-Train-Map",
+     "at": "2026-09-14T22:11:43Z",
+     "stars": 68,
+     "createdAt": "2025-04-04T04:02:47Z"
+    },
+    {
+     "repo": "sample-owner-0099/diy-esp32-epub-reader",
+     "at": "2026-09-14T21:34:17Z",
+     "stars": 878,
+     "createdAt": "2021-09-02T14:37:48Z"
+    },
+    {
+     "repo": "sample-owner-0356/Edge0",
+     "at": "2026-09-13T15:48:26Z",
+     "stars": 2072,
+     "createdAt": "2026-09-08T13:41:47Z"
+    },
+    {
+     "repo": "sample-owner-0203/blender",
+     "at": "2026-09-13T15:14:16Z",
+     "stars": 34,
+     "createdAt": "2026-08-14T10:11:17Z"
+    },
+    {
+     "repo": "sample-owner-0145/sample-owner-0145",
+     "at": "2026-09-12T16:00:31Z",
+     "stars": 20528,
+     "createdAt": "2019-10-09T12:47:28Z"
+    },
+    {
+     "repo": "sample-owner-0899/OpenCat-Quadruped-Robot",
+     "at": "2026-09-11T10:22:11Z",
+     "stars": 5369,
+     "createdAt": "2021-01-03T15:42:00Z"
+    },
+    {
+     "repo": "sample-owner-0929/poppy-humanoid",
+     "at": "2026-09-10T16:40:51Z",
+     "stars": 1068,
+     "createdAt": "2015-01-09T10:23:33Z"
+    },
+    {
+     "repo": "sample-owner-1197/sample-owner-1197",
+     "at": "2026-09-10T15:15:46Z",
+     "stars": 50562,
+     "createdAt": "2021-05-09T11:48:37Z"
+    },
+    {
+     "repo": "sample-owner-1269/Voron-Trident",
+     "at": "2026-09-10T10:40:12Z",
+     "stars": 1100,
+     "createdAt": "2021-08-15T19:58:31Z"
+    },
+    {
+     "repo": "sample-owner-0188/Cap",
+     "at": "2026-09-07T16:41:29Z",
+     "stars": 22794,
+     "createdAt": "2023-11-17T20:31:46Z"
+    },
+    {
+     "repo": "sample-owner-1105/codex-keybored",
+     "at": "2026-09-06T08:04:59Z",
+     "stars": 9,
+     "createdAt": "2026-07-17T21:42:25Z"
+    },
+    {
+     "repo": "sample-owner-0154/higgs-audio",
+     "at": "2026-09-04T18:41:35Z",
+     "stars": 8361,
+     "createdAt": "2025-07-20T05:25:27Z"
+    },
+    {
+     "repo": "sample-owner-1198/MuseTalk",
+     "at": "2026-09-04T15:28:38Z",
+     "stars": 6627,
+     "createdAt": "2024-03-26T04:14:37Z"
+    },
+    {
+     "repo": "sample-owner-0603/Holo",
+     "at": "2026-09-04T10:34:26Z",
+     "stars": 917,
+     "createdAt": "2026-07-17T17:48:08Z"
+    },
+    {
+     "repo": "sample-owner-0974/Qwen-Image",
+     "at": "2026-09-04T09:44:43Z",
+     "stars": 8374,
+     "createdAt": "2025-08-03T11:03:25Z"
+    },
+    {
+     "repo": "sample-owner-1136/Stirling-PDF",
+     "at": "2026-09-03T09:10:23Z",
+     "stars": 92990,
+     "createdAt": "2023-01-27T18:22:42Z"
+    },
+    {
+     "repo": "sample-owner-0062/sanoTTS",
+     "at": "2026-09-01T22:25:50Z",
+     "stars": 750,
+     "createdAt": "2026-07-11T15:13:22Z"
+    },
+    {
+     "repo": "sample-owner-0173/sample-owner-0173",
+     "at": "2026-09-01T19:13:16Z",
+     "stars": 72,
+     "createdAt": "2026-08-20T10:23:32Z"
+    },
+    {
+     "repo": "sample-owner-0246/laser-graffiti",
+     "at": "2026-09-01T11:58:37Z",
+     "stars": 87,
+     "createdAt": "2026-08-29T11:29:51Z"
+    },
+    {
+     "repo": "sample-owner-0160/breeze-tts",
+     "at": "2026-09-01T10:00:56Z",
+     "stars": 494,
+     "createdAt": "2026-08-25T16:23:48Z"
+    },
+    {
+     "repo": "sample-owner-1040/Retrieval-based-Voice-Conversion-WebUI",
+     "at": "2026-08-31T21:33:46Z",
+     "stars": 38525,
+     "createdAt": "2023-03-27T09:59:10Z"
+    },
+    {
+     "repo": "sample-owner-0154/Higgs-Realtime-Tutorial",
+     "at": "2026-08-31T20:22:33Z",
+     "stars": 25,
+     "createdAt": "2026-08-20T22:58:18Z"
+    },
+    {
+     "repo": "sample-owner-0460/gemini-watermark-remover",
+     "at": "2026-08-31T12:56:57Z",
+     "stars": 5600,
+     "createdAt": "2025-12-19T12:06:10Z"
+    },
+    {
+     "repo": "sample-owner-0508/BigMoeOnEdge",
+     "at": "2026-08-30T21:46:54Z",
+     "stars": 593,
+     "createdAt": "2026-07-10T16:19:44Z"
+    },
+    {
+     "repo": "sample-owner-0432/FreeToken",
+     "at": "2026-08-30T14:49:32Z",
+     "stars": 13777,
+     "createdAt": "2026-07-20T20:44:11Z"
+    },
+    {
+     "repo": "sample-owner-0502/FastVideo",
+     "at": "2026-08-30T12:25:35Z",
+     "stars": 4501,
+     "createdAt": "2024-10-24T02:11:32Z"
+    },
+    {
+     "repo": "sample-owner-1306/VoiceMem",
+     "at": "2026-08-30T12:18:15Z",
+     "stars": 2354,
+     "createdAt": "2026-08-17T09:49:10Z"
+    },
+    {
+     "repo": "sample-owner-0101/autonomous-os",
+     "at": "2026-08-30T05:12:58Z",
+     "stars": 358,
+     "createdAt": "2026-06-04T17:37:16Z"
+    },
+    {
+     "repo": "sample-owner-0626/ShotStream",
+     "at": "2026-08-29T19:20:58Z",
+     "stars": 184,
+     "createdAt": "2026-03-16T09:25:19Z"
+    },
+    {
+     "repo": "sample-owner-1311/Vector-Prism",
+     "at": "2026-08-29T12:32:05Z",
+     "stars": 29,
+     "createdAt": "2025-12-16T06:28:20Z"
+    },
+    {
+     "repo": "sample-owner-1316/MTPLX",
+     "at": "2026-08-29T06:45:46Z",
+     "stars": 2437,
+     "createdAt": "2026-05-02T00:59:09Z"
+    },
+    {
+     "repo": "sample-owner-0404/sam3",
+     "at": "2026-08-25T08:48:19Z",
+     "stars": 11791,
+     "createdAt": "2025-07-17T16:15:40Z"
+    },
+    {
+     "repo": "sample-owner-0270/dagre",
+     "at": "2026-08-23T20:19:51Z",
+     "stars": 5802,
+     "createdAt": "2012-09-27T04:39:56Z"
+    },
+    {
+     "repo": "sample-owner-0109/dsh-computer-use",
+     "at": "2026-08-23T11:21:56Z",
+     "stars": 15,
+     "createdAt": "2026-08-21T10:52:25Z"
+    },
+    {
+     "repo": "sample-owner-0010/dsh-rust-sdk",
+     "at": "2026-08-23T07:50:13Z",
+     "stars": 8,
+     "createdAt": "2026-08-16T07:32:28Z"
+    },
+    {
+     "repo": "sample-owner-0681/ESP32s3-LLM-Cluster",
+     "at": "2026-08-22T10:13:21Z",
+     "stars": 55,
+     "createdAt": "2026-08-06T16:04:55Z"
+    },
+    {
+     "repo": "sample-owner-0253/cordis",
+     "at": "2026-08-22T09:33:21Z",
+     "stars": 8811,
+     "createdAt": "2022-05-17T18:52:57Z"
+    },
+    {
+     "repo": "sample-owner-0482/mediapipe",
+     "at": "2026-08-21T09:31:31Z",
+     "stars": 37075,
+     "createdAt": "2019-06-13T19:16:41Z"
+    },
+    {
+     "repo": "sample-owner-0974/Qwen3-VL",
+     "at": "2026-08-20T20:16:55Z",
+     "stars": 19999,
+     "createdAt": "2024-08-29T08:30:38Z"
+    },
+    {
+     "repo": "sample-owner-0084/mlx-dspark",
+     "at": "2026-08-20T09:49:06Z",
+     "stars": 683,
+     "createdAt": "2026-06-29T20:57:35Z"
+    },
+    {
+     "repo": "sample-owner-0016/DoneJar",
+     "at": "2026-08-19T19:37:27Z",
+     "stars": 8,
+     "createdAt": "2026-01-09T08:10:00Z"
+    },
+    {
+     "repo": "sample-owner-0356/Audio8_TTS",
+     "at": "2026-08-17T15:50:14Z",
+     "stars": 1551,
+     "createdAt": "2026-07-29T03:58:19Z"
+    },
+    {
+     "repo": "sample-owner-0414/anarlog",
+     "at": "2026-08-17T13:42:16Z",
+     "stars": 9395,
+     "createdAt": "2024-12-09T02:51:21Z"
+    },
+    {
+     "repo": "sample-owner-1173/HY-World-2.0",
+     "at": "2026-08-16T09:32:55Z",
+     "stars": 2674,
+     "createdAt": "2026-04-10T07:09:43Z"
+    },
+    {
+     "repo": "sample-owner-1101/Matrix-Game",
+     "at": "2026-08-16T07:39:26Z",
+     "stars": 2340,
+     "createdAt": "2025-05-06T10:01:43Z"
+    },
+    {
+     "repo": "sample-owner-0444/sample-owner-0444",
+     "at": "2026-08-13T17:39:52Z",
+     "stars": 2027,
+     "createdAt": "2014-06-28T17:00:48Z"
+    },
+    {
+     "repo": "sample-owner-0475/gloomberb",
+     "at": "2026-08-13T14:50:15Z",
+     "stars": 2213,
+     "createdAt": "2026-03-25T02:22:53Z"
+    },
+    {
+     "repo": "sample-owner-0298/deepseek-harness",
+     "at": "2026-08-13T14:45:26Z",
+     "stars": 235729,
+     "createdAt": "2026-08-13T11:56:32Z"
+    },
+    {
+     "repo": "sample-owner-0163/sample-owner-0163",
+     "at": "2026-08-13T12:15:56Z",
+     "stars": 116252,
+     "createdAt": "2024-10-31T16:00:56Z"
+    },
+    {
+     "repo": "sample-owner-0351/sample-owner-0351-api-skill",
+     "at": "2026-08-13T12:07:48Z",
+     "stars": 799,
+     "createdAt": "2026-03-16T13:06:08Z"
+    },
+    {
+     "repo": "sample-owner-1309/qm",
+     "at": "2026-08-01T12:01:00Z",
+     "stars": 15239,
+     "createdAt": "2026-07-29T20:03:08Z"
+    },
+    {
+     "repo": "sample-owner-1106/esp32-ai",
+     "at": "2026-07-26T13:06:04Z",
+     "stars": 4415,
+     "createdAt": "2026-07-23T14:53:51Z"
+    },
+    {
+     "repo": "sample-owner-0399/orb-ui",
+     "at": "2026-07-15T09:08:51Z",
+     "stars": 69,
+     "createdAt": "2026-02-26T16:10:46Z"
+    },
+    {
+     "repo": "sample-owner-0292/reso",
+     "at": "2026-07-09T08:26:14Z",
+     "stars": 17,
+     "createdAt": "2026-07-08T16:01:29Z"
+    },
+    {
+     "repo": "sample-owner-1058/Artificial-Intelligence-Robot-Model",
+     "at": "2026-06-28T09:44:57Z",
+     "stars": 3,
+     "createdAt": "2024-09-05T02:14:02Z"
+    },
+    {
+     "repo": "sample-owner-0564/ESP32-WakeWord",
+     "at": "2026-06-18T07:22:37Z",
+     "stars": 8,
+     "createdAt": "2025-08-19T23:15:26Z"
+    },
+    {
+     "repo": "sample-owner-0790/iroh",
+     "at": "2026-06-15T19:56:51Z",
+     "stars": 12583,
+     "createdAt": "2022-03-14T19:30:08Z"
+    },
+    {
+     "repo": "sample-owner-1162/kage",
+     "at": "2026-06-15T15:49:54Z",
+     "stars": 3433,
+     "createdAt": "2026-06-14T11:21:55Z"
+    },
+    {
+     "repo": "sample-owner-0802/bleep-that-shit",
+     "at": "2026-06-14T20:44:55Z",
+     "stars": 67,
+     "createdAt": "2024-06-08T20:57:15Z"
+    },
+    {
+     "repo": "sample-owner-0639/esp32-cyd-aquarium",
+     "at": "2026-06-13T20:11:24Z",
+     "stars": 121,
+     "createdAt": "2026-06-10T11:32:37Z"
+    },
+    {
+     "repo": "sample-owner-0146/awesome-explorables",
+     "at": "2026-06-12T11:41:30Z",
+     "stars": 1049,
+     "createdAt": "2017-03-01T10:22:59Z"
+    },
+    {
+     "repo": "sample-user-09/Elato-Music",
+     "at": "2026-06-11T10:04:55Z",
+     "stars": 5,
+     "createdAt": "2026-06-10T19:02:49Z"
+    },
+    {
+     "repo": "sample-owner-0297/fruit-genie",
+     "at": "2026-06-08T14:54:04Z",
+     "stars": 87,
+     "createdAt": "2019-05-02T18:26:11Z"
+    },
+    {
+     "repo": "sample-owner-0696/sample-owner-0696-realtime",
+     "at": "2026-06-08T07:57:56Z",
+     "stars": 1804,
+     "createdAt": "2025-06-12T17:09:21Z"
+    },
+    {
+     "repo": "sample-owner-0879/paperclip",
+     "at": "2026-06-05T08:07:59Z",
+     "stars": 83658,
+     "createdAt": "2026-03-02T15:01:51Z"
+    },
+    {
+     "repo": "sample-owner-0075/claude-code",
+     "at": "2026-06-04T09:12:11Z",
+     "stars": 148039,
+     "createdAt": "2025-02-22T17:41:21Z"
+    },
+    {
+     "repo": "sample-owner-0445/freestyle",
+     "at": "2026-06-01T15:28:14Z",
+     "stars": 486,
+     "createdAt": "2026-05-25T02:25:59Z"
+    },
+    {
+     "repo": "sample-owner-0897/matriblood-q",
+     "at": "2026-05-29T06:43:39Z",
+     "stars": 1,
+     "createdAt": "2026-05-23T06:37:40Z"
+    },
+    {
+     "repo": "sample-owner-0949/VOIVA",
+     "at": "2026-05-24T18:33:32Z",
+     "stars": 1,
+     "createdAt": "2026-05-23T11:36:31Z"
+    },
+    {
+     "repo": "sample-owner-0745/anything-llm",
+     "at": "2026-05-22T09:12:10Z",
+     "stars": 66458,
+     "createdAt": "2023-06-04T02:29:14Z"
+    },
+    {
+     "repo": "sample-user-09/OpenToys",
+     "at": "2026-05-20T08:27:00Z",
+     "stars": 164,
+     "createdAt": "2026-01-24T08:46:07Z"
+    },
+    {
+     "repo": "sample-owner-1004/skills",
+     "at": "2026-05-19T19:42:47Z",
+     "stars": 4709,
+     "createdAt": "2026-01-19T09:58:43Z"
+    },
+    {
+     "repo": "sample-owner-0120/Esp32S3",
+     "at": "2026-05-18T11:52:16Z",
+     "stars": 133,
+     "createdAt": "2026-03-30T18:11:06Z"
+    },
+    {
+     "repo": "sample-owner-0861/react-video-editor",
+     "at": "2026-05-17T07:13:24Z",
+     "stars": 1798,
+     "createdAt": "2024-08-02T15:56:30Z"
+    },
+    {
+     "repo": "sample-owner-0142/mlx-embeddings",
+     "at": "2026-05-17T06:56:06Z",
+     "stars": 445,
+     "createdAt": "2024-07-16T15:44:10Z"
+    },
+    {
+     "repo": "sample-owner-0974/Qwen3-VL-Embedding",
+     "at": "2026-05-17T06:52:12Z",
+     "stars": 1387,
+     "createdAt": "2026-01-08T03:42:57Z"
+    },
+    {
+     "repo": "sample-owner-1004/template-tiktok",
+     "at": "2026-05-17T06:33:50Z",
+     "stars": 282,
+     "createdAt": "2024-02-17T12:25:48Z"
+    },
+    {
+     "repo": "sample-owner-1070/holler",
+     "at": "2026-05-16T19:41:58Z",
+     "stars": 18,
+     "createdAt": "2026-05-02T08:37:57Z"
+    },
+    {
+     "repo": "sample-owner-1004/remotion",
+     "at": "2026-05-16T06:41:12Z",
+     "stars": 60380,
+     "createdAt": "2020-06-23T19:49:10Z"
+    },
+    {
+     "repo": "sample-owner-0163/video-use",
+     "at": "2026-05-15T07:58:14Z",
+     "stars": 27027,
+     "createdAt": "2026-04-12T01:34:42Z"
+    },
+    {
+     "repo": "sample-owner-0930/agentic-video-editor",
+     "at": "2026-05-15T07:58:12Z",
+     "stars": 491,
+     "createdAt": "2026-04-14T03:43:41Z"
+    },
+    {
+     "repo": "sample-owner-0785/openshorts",
+     "at": "2026-05-15T07:58:12Z",
+     "stars": 5649,
+     "createdAt": "2025-12-19T12:45:10Z"
+    }
+   ]
+  }
+ },
+ "profiles": {
+  "sample-user-13": {
+   "id": 51504045,
+   "createdAt": "2019-06-08T07:12:18Z",
+   "followers": 57,
+   "publicRepos": 80
+  },
+  "sample-user-25": {
+   "id": 900074,
+   "createdAt": "2011-07-07T08:47:22Z",
+   "followers": 52,
+   "publicRepos": 176
+  },
+  "sample-user-12": {
+   "id": 1063045,
+   "createdAt": "2011-09-19T19:25:51Z",
+   "followers": 42,
+   "publicRepos": 5
+  },
+  "sample-user-09": {
+   "id": 20175219,
+   "createdAt": "2016-06-27T22:14:48Z",
+   "followers": 122,
+   "publicRepos": 88
+  },
+  "sample-user-01": {
+   "id": 123363660,
+   "createdAt": "2023-01-23T09:22:10Z",
+   "followers": 11,
+   "publicRepos": 6
+  }
+ },
+ "readmes": {
+  "sample-owner-1078/riso-windowseat": {
+   "text": "# riso-windowseat\n\nProcedural risograph films and prints, each a single `index.html` of Canvas 2D and Web Audio:\nno libraries, fonts, images or network calls. The repo began as the release of **Window Seat**.\nMaking it, and the two shorts before it, produced a reusable kit of Claude Code skills, craft\ndocs and a render harness. Roost, Held, Nonpareil, Eclosion and Passenger were made with it next,\nand two print series, Cabinet and Sceneries.\n\n![Window Seat, dawn from the viaduct](films/window-seat/poster.png)\n\n## Films\n\nAll are 1080 × 1080, 30 fps. MP4s are on the\n[v1.0 release](https://github.com/sample-owner-1078/riso-windowseat/releases/tag/v1.0). To watch the\nsource instead, open any `index.html` in a browser and press play.\n\n| Film | Length | |\n|---|---|---|\n| [Window Seat](films/window-seat/) | 78 s | A night train journey through one window, scored for piano |\n| [Roost](films/roost/) | 70 s | One take of a starling murmuration from sunset to roost, scored for strings |\n| [Held](films/held/) | 70 s | A kite that flies only while something holds its line, scored for found instruments |\n| [Nonpareil](films/nonpareil/) | 70 s | Paper marbling from the first drop to the one print it makes, scored for handpan |\n| [Eclosion](films/eclosion/) | 36 s | A monarch leaves its chrysalis, pumps its wings full and flies, in one take, scored for vibraphone, clarinet and horn |\n| [Passenger](films/passenger/) | 36 s | A butterfly draws itself in the fog on a train window and comes alive at sunrise; a child of Window Seat and [anidoodle](https://github.com/sample-owner-0050/anidoodle), scored procedurally |\n| [Lumen](films/lumen/) | 28 s | A seed that contains a sun; the first short, in call-and-response form |\n| [Emergence](films/emergence/) | 28 s | Lumen's sibling: how machines learned to listen, as nine worlds |\n\n### Window Seat\n\nA night train journey seen through one fixed window with a glass of water on the sill. Every\npixel and every sound except the piano is procedural.\n\n| Time | Passage |\n|---|---|\n| 0–19 s | Golden departure from a platform, fields, a red truss bridge, a conifer cutting, a tunnel |\n| 19–38 s | A night city with a canal and a level crossing; another train overtakes, passengers in its windows |\n| 38–57 s | Fireworks over a lake, sleeper hours with star trails, pre-dawn fog |\n| 57–78 s | Dawn from a viaduct, rain streaming back along the glass, a lakeside halt under a rainbow |\n\nThe score, \"A Light Left in the Window\", is an original piano piece in 6/8 whose phrasing follows\nthe picture's timeline. The glass of water leans with every acceleration and is the last thing to\nsettle.\n\n![Contact sheet of Window Seat's shots](films/window-seat/sheet.jpg)\n\n### Roost\n\n<a href=\"films/roost/preview.webp\" title=\"Open the larger preview\"><img src=\"films/roost/preview-thumb.webp\" width=\"180\" align=\"right\" alt=\"Roost: the flock over the sun, the falcon strike, starlings pouring past, the roost\"></a>\nA murmuration over a marsh in one fixed view. Each starling is a 2–3 px ink dot, so the flock\nis the halftone: where the sheet turns edge-on, the birds pile into dark printed ribbons. A\nfalcon stoops through it and the flock pours into the reeds at nightfall. The string score is\ntimed from the picture.\n\n<br clear=\"right\">\n\n### Held\n\n<a href=\"films/held/preview.webp\" title=\"Open the larger preview\"><img src=\"films/held/preview-thumb.webp\" width=\"180\" align=\"right\" alt=\"Held: the kite on the hill, the line parting, the church vane, the sloop's catch\"></a>\nA paper kite's line frays and parts at a hillside stake. Loose, it can only tumble; it falls\nacross a harbour town, is snagged for a moment by a church weathervane, and over the water its\nline catches on a sloop's forestay, so the kite climbs again, held by the boat sailing into\ndusk. Its tail and loose line are simulated ropes. The score uses CC0 mbira, harp, glockenspiel,\nchimes, strings and flute, with every cue read from the picture's events.\n\n<br clear=\"right\">\n\n### Nonpareil\n\n<a href=\"films/nonpareil/preview.webp\" title=\"Open the larger preview\"><img src=\"films/nonpareil/preview-thumb.webp\" width=\"180\" align=\"right\" alt=\"Nonpareil: drops landing, the comb crossing, a bullseye pulled into a flower, the sheet peeling back\"></a>\nPaper marbling seen straight down into the bath. Drops of colour land on the beat and push each\nother outward; a rake and a fine comb drag them into the nonpareil pattern, and a flower is\ndropped and pulled into the middle. A sheet unrolls across the bath, is peeled back toward the\nlens like a turning page, and lands face up and mirrored beside the emptied tray. The marbling\nis closed-form geometry, so every frame is exact. The drops are the handpan's notes, over a\nslow cello and contrabass line.\n\n<br clear=\"right\">\n\n### Eclosion\n\n<a href=\"films/eclosion/preview.webp\" title=\"Open the larger preview\"><img src=\"films/eclosion/preview-thumb.webp\" width=\"180\" align=\"right\" alt=\"Eclosion: the case splitting, the butterfly swinging out, the full display, the flight\"></a>\nOne monarch's first morning, in one continuous macro take. A jade chrysalis clears and splits;\nthe butterfly drops out, hangs from the empty shell and pumps its crumpled wings full in six\nslow pulses while its swollen abdomen shrinks. It turns, opens its wings twice and flies, and\nthe camera returns to the empty case, framed as the chrysalis was in the first second. The\nwings are a planar 3D model whose pattern was measured from a specimen photograph, layered by\ndepth so the body reads right from the side, from behind and in flight. A slow trio in F for\nvibraphone, clarinet and horn shares the picture's clock.\n\n<br clear=\"right\">\n\n### Passenger\n\n<a href=\"films/passenger/preview.webp\" title=\"Open the larger preview\"><img src=\"films/passenger/preview-thumb.webp\" width=\"180\" align=\"right\" alt=\"Passenger: the drawing in the fog, sunrise and ink, lift-off, the wings opening on the glass\"></a>\nA child of this repo and [sample-owner-0050/anidoodle](https://github.com/sample-owner-0050/anidoodle):\nWindow Seat's window and glass of water, and anidoodle's drawing that makes itself and then comes\nalive. Before dawn a butterfly draws itself in the fog on a train window, stroke by stroke in the\norder a finger would. Its clear lines are windows, so lamps slide through the drawing and the dawn\nfills its wings. The sunrise warms it off the glass and the camera pulls back from the pane to the\nseat. It lands on the rim of the glass of water and drinks, and the butterfly-shaped hole it left\nstays in the fog. The score is procedural, from the shared kit: every mark of the drawing is a\nnote, and the opening motif is answered as the wings open.\n\n<br clear=\"right\">\n\n## Prints\n\nStill series driven like a film (each integer time is one print) and exported as native\n2160 × 2160 PNGs with `tools/still.mjs`.\n\n**[Cabinet](prints/cabinet/)**: five plates from an imaginary natural-history cabinet (a sectioned\nnautilus, arranged diatoms, a luna moth, a cut agate, a sunflower), each built from its own growth\ngeometry and cut as fine line over screened colour.\n\n![Cabinet, plates I–V](prints/cabinet/sheet.jpg)\n\n**[Sceneries](prints/sceneries/)**: a curved viaduct in fog, a cliff village at dusk over its own\nreflection, and a stepped canyon at sunrise.\n\n![Sceneries: viaduct, harbour, canyon](prints/sceneries/sheet.jpg)\n\n## How they're made\n\nI directed each work; Claude Code (Anthropic's coding agent) wrote the code, using the skills,\nrules and docs in this repo. A work is designed in its `FILM.md` or `PRINT.md`, its hardest frame\nis proved first, and then it is inspected as frame strips, 1:1 crops and loudness sheets rendered\nby `tools/`. Every frame is a pure function of time (`seek(t)`), so any moment can be inspected\nexactly and the MP4 cannot drop frames. Each record keeps the design decisions and measurements,\nand lists the work's remaining weaknesses.\n\n## Make your own\n\n```\ngit clone https://github.com/sample-owner-1078/riso-windowseat\ncd riso-windowseat/tools\nnpm install && npm run setup && npm test\n```\n\nThen open Claude Code in the repo root and ask, for example:\n\n- \"Make a 40 second riso film of a lighthouse keeper's night.\"\n- \"Make a riso poster of a heron on a pier at dusk.\"\n- \"Score this film\" or \"The rain at 66 s is too loud.\"\n- \"Extend Window Seat with a snowy mountain pass after the lake.\"\n\n`CLAUDE.md` gives the session the contract and commands. The `riso-film`, `riso-still` and\n`riso-score` skills in `.claude/skills/` carry the workflow and gates. Each skill's `examples.md`\npoints to the routines in the shipped films that are worth reusing. A hook warns when an edit\nbreaks determinism.\n\n## What's inside\n\n| Path | Contents |\n|---|---|\n| `films/` | The eight films, each with its `FILM.md`; Window Seat, Roost, Held, Nonpareil and Eclosion include sample credits and bank rebuild scripts |\n| `prints/` | Three print series: Cabinet and Sceneries with their `PRINT.md`, and Workings, which donates the print kit new works start from |\n| `docs/` | The craft: brief, visual development, drawing, figures, scene space, motion, live plates, sound, quality bar |\n| `studies/` | Interactive A/B studies of each technique, and the sound kit |\n| `tools/` | Scaffolding, verification, contact sheets, audio analysis and MP4 export ([README](tools/README.md)) |\n| `.claude/` | Skills, the ink-plate rule and the determinism hook |\n\n## License\n\nMIT, see [LICENSE](LICENSE). The piano recordings embedded in Window Seat are Salamander Grand\nPiano V3 by Alexander Holm under CC BY 3.0; see\n[`AUDIO-SOURCES.md`](films/window-seat/AUDIO-SOURCES.md). The string recordings embedded in\nRoost are VSCO 2 Community Edition by Versilian Studios under CC0 1.0; see\n[`AUDIO-SOURCES.md`](films/roost/AUDIO-SOURCES.md). Held's instruments are from Versilian's VCSL\nand VSCO 2, also CC0 1.0; see [`AUDIO-SOURCES.md`](films/held/AUDIO-SOURCES.md). Nonpareil's\nhandpan is GAMEDRIX974's HandPan pack on Freesound and its cello and contrabass are from VSCO 2,\nall CC0 1.0; see [`AUDIO-SOURCES.md`](films/nonpareil/AUDIO-SOURCES.md). Eclosion's vibraphone\n(VCSL), clarinet and horn (VSCO 2) are CC0 1.0; see\n[`AUDIO-SOURCES.md`](films/eclosion/AUDIO-SOURCES.md). Its wing geometry is measured from\n\"Danaus plexippus MHNT dos.jpg\" by Didier Descouens (Wikimedia Commons, CC BY-SA 4.0); see\n[`FILM.md`](films/eclosion/FILM.md).\n",
+   "skeleton": "dd1114ef5ebd"
+  }
+ },
+ "known": null,
+ "trace": [
+  {
+   "step": "resolve",
+   "calls": 0,
+   "ms": 0
+  },
+  {
+   "step": "repo",
+   "calls": 7,
+   "ms": 1282
+  },
+  {
+   "step": "siblings",
+   "calls": 4,
+   "ms": 462
+  },
+  {
+   "step": "seeds",
+   "calls": 2,
+   "ms": 453
+  },
+  {
+   "step": "starred",
+   "calls": 10,
+   "ms": 2687
+  },
+  {
+   "step": "profiles",
+   "calls": 5,
+   "ms": 467
+  },
+  {
+   "step": "soil",
+   "calls": 1,
+   "ms": 379
+  },
+  {
+   "step": "twins",
+   "calls": 1,
+   "ms": 327
+  },
+  {
+   "step": "score",
+   "calls": 0,
+   "ms": 0
+  }
+ ],
+ "cost": {
+  "githubCore": 20,
+  "githubSearch": 2,
+  "heliusCredits": 0
+ },
+ "limits": [],
+ "elapsedMs": 4436,
+ "_note": "Recorded live by test/record.mjs at 2026-09-25T13:58:11Z. GitHub logins replaced by stable placeholders (sample-user-NN = accounts seen as stargazers, sample-owner-NNNN = repo owners, the organization tinygrad kept) with anonymize() on 2026-09-26; ids, dates, counts and star lists are unchanged, and READMEs carry the skeleton hash of their original text (their text had third-party links rewritten), so analyze() returns the recorded report with the names swapped."
+}
