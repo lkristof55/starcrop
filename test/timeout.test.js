@@ -2,9 +2,17 @@
 // The per-call signal still runs after the headers arrive; a stalled body must become the library's own error,
 // and a survey that runs out of time must come back as a partial report, never as a thrown DOMException.
 import test from 'node:test';
+import { before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { githubClient, fetchJson } from '../src/http.js';
 import { survey, collect, analyze, renderPlat, StarcropError, BudgetError } from '../src/index.js';
+
+// Fake fetches hold no socket, and Node 22 lets the process exit while only unref'd
+// timeout timers are pending; keep the event loop alive while this file's tests run.
+let keepAlive;
+before(() => { keepAlive = setInterval(() => {}, 1000); });
+after(() => clearInterval(keepAlive));
+
 
 const json = (b, status = 200, headers = {}) => new Response(JSON.stringify(b), { status, headers: { 'content-type': 'application/json', ...headers } });
 

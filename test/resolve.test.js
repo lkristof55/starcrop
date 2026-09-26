@@ -1,6 +1,14 @@
 import test from 'node:test';
+import { before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { resolveRepo, gatewayUrl, repoFromMetadata, repoFromDexPairs, collect, StarcropError } from '../src/index.js';
+
+// Fake fetches hold no socket, and Node 22 lets the process exit while only unref'd
+// timeout timers are pending; keep the event loop alive while this file's tests run.
+let keepAlive;
+before(() => { keepAlive = setInterval(() => {}, 1000); });
+after(() => clearInterval(keepAlive));
+
 
 const MINT = '64S9QFTFhrcLWsXWjTBkaWPS4asdcrQGwvVQWxUjpump';
 const json = (b, status = 200, headers = {}) => new Response(JSON.stringify(b), { status, headers: { 'content-type': 'application/json', ...headers } });
