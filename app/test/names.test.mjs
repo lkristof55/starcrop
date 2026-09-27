@@ -114,7 +114,7 @@ test('no key or token in any file of app/', () => {
     /gh[pousr]_[A-Za-z0-9]{30,}/, /github_pat_[A-Za-z0-9_]{20,}/, /api-key=[0-9a-f]{8}-[0-9a-f]{4}-/i, /apify_api_[A-Za-z0-9]{20,}/,
     /(HELIUS_API_KEY|BIRDEYE_API_KEY|GITHUB_TOKEN|DUNE_API_KEY|APIFY_TOKEN)\s*=\s*["']?[A-Za-z0-9_-]{8,}/,
   ];
-  const skip = new Set(['node_modules', '.data', 'dist', '.env']);
+  const skip = new Set(['node_modules', '.data', 'dist', '.env', '.dev.vars', '.wrangler']); // local-only, gitignored
   const hits = [];
   const walk = (d) => {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {

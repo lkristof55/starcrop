@@ -5,6 +5,8 @@ import { getStore } from './store.mjs';
 import reference from './reference-report.mjs';
 import { repoKey, plantsField, assignField, mergeField, fieldSummary, prepend, upsertFieldList } from './fields.mjs';
 import { surveyOptions } from './sources.mjs';
+import { plan as currentPlan, needsBudget, FULL_STARRED_PAGES } from './plan.mjs';
+import { upstreamBudget } from './upstream.mjs';
 
 export const REPORT_TTL_MS = 6 * 3600e3;   // contract cacheSeconds 21600
 export const PARTIAL_TTL_MS = 15 * 60e3;   // a partial record stays in the store 15 min: the scheduled survey skips it that long
@@ -24,6 +26,41 @@ const store = () => getStore('starcrop');
 /** A report cut short before GitHub returned the repo measured nothing: serve it, but never cache, index or list it. */
 export const measured = (report) => report?.repo?.stars != null;
 const iso = () => new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
+
+/** The library's own line when its time budget ran out (src/survey.js collect()). */
+export const LIB_BUDGET_LIMIT = 'PARTIAL: the time budget ran out; unfinished signals are null (not measured).';
+
+/** The counting fetch for one invocation when the plan caps or slims (lib/plan.mjs), else null. */
+export const budgetFor = (p) => (needsBudget(p) ? upstreamBudget({ maxFetches: p.maxFetches, slim: p.slim }) : null);
+
+/** Survey options for a plan: the counting fetch and, below the library default, the starred-page cap. */
+export function planOptions(p, budget) {
+  return {
+    ...(budget ? { fetch: budget.fetch } : {}),
+    ...(p.starredPages !== FULL_STARRED_PAGES ? { maxStarredCalls: p.starredPages } : {}),
+  };
+}
+
+/**
+ * Say in the report what the plan did to it (lib/plan.mjs): a request cap that cut the survey short, a smaller sample.
+ * Unchanged on Netlify and Workers Paid (no cap, the full sample).
+ * @param {number} [refusedBefore] requests the budget had refused before this survey began (the job shares one budget)
+ */
+export function planNotes(report, p, budget, refusedBefore = 0) {
+  if (!report || !Array.isArray(report.limits)) return report;
+  const limits = [...report.limits];
+  const where = p.free ? 'this copy runs on the Cloudflare Workers Free plan and' : 'this deployment';
+  if (report.partial && budget && budget.refused > refusedBefore) {
+    const line = `PARTIAL: the time budget or the cap of ${budget.maxFetches} upstream requests per invocation (${p.free ? 'Cloudflare Workers Free plan' : 'SURVEY_FETCH_BUDGET'}) ran out; unfinished signals are null (not measured).`;
+    const i = limits.indexOf(LIB_BUDGET_LIMIT);
+    if (i >= 0) limits[i] = line; else limits.push(line);
+  }
+  const starred = report.trace?.find((x) => x.step === 'starred')?.calls ?? 0;
+  if (p.starredPages < FULL_STARRED_PAGES && starred >= p.starredPages) {
+    limits.push(`Sample: ${where} reads at most ${p.starredPages} starred-list pages per survey (the full survey reads up to ${FULL_STARRED_PAGES}). This survey used all ${p.starredPages}; the full survey may sample more stargazers.`);
+  }
+  return { ...report, limits };
+}
 
 /** Best-effort store read/write for the report path: a store outage must not break a live survey. */
 async function tryGet(k) { try { return await (await store()).get(k); } catch { return null; } }
@@ -124,8 +161,10 @@ async function pushList(key, report, max) {
  * next request surveys again. fresh=1 asks for that re-survey explicitly: inside the 60 s window it is refused with
  * 429 RATE_LIMITED + retryAfter (one re-survey per repo per minute); on a full report it changes nothing.
  * Every response carries resurveyAt: ISO time a partial will be surveyed again, null for full and cut-short reports.
+ * On the Cloudflare free plan (lib/plan.mjs) the survey makes at most 45 upstream requests and reads at most 12 starred
+ * pages; the report's `limits` say so when it mattered (planNotes).
  * @param {string} q
- * @param {{ budgetMs?: number, surveyFn?: typeof survey, fresh?: boolean }} [o]
+ * @param {{ budgetMs?: number, surveyFn?: typeof survey, fresh?: boolean, plan?: ReturnType<typeof currentPlan> }} [o]
  */
 export async function getReport(q, o = {}) {
   const started = Date.now();
@@ -167,9 +206,11 @@ export async function getReport(q, o = {}) {
     }
   }
 
+  const p = o.plan || currentPlan();
+  const budget = budgetFor(p);
   let report;
   try {
-    report = await (o.surveyFn || survey)(q, surveyOptions({ budgetMs: (o.budgetMs ?? REQUEST_BUDGET_MS) - (Date.now() - started) - 300, knownPlanters }));
+    report = await (o.surveyFn || survey)(q, surveyOptions({ budgetMs: (o.budgetMs ?? REQUEST_BUDGET_MS) - (Date.now() - started) - 300, knownPlanters, ...planOptions(p, budget) }));
   } catch (e) {
     await stamping;
     if (e instanceof StarcropError && e.code === 'NO_REPO' && target.mint) {
@@ -180,6 +221,7 @@ export async function getReport(q, o = {}) {
     throw e;
   }
   await stamping;
+  report = planNotes(report, p, budget);
   if (!measured(report)) return { ...report, resurveyAt: null };
   if (report.input.mint) {
     const r = { fullName: report.repo.fullName, token: report.input.token, at: iso() };
@@ -197,9 +239,13 @@ export async function getReport(q, o = {}) {
   return { ...report, resurveyAt: report.partial ? new Date(resurveyTime(rec)).toISOString() : null };
 }
 
-/** Survey for the scheduled job (no recent/list entry). */
-export async function surveyForJob(fullName, { budgetMs = 12000, mint = null, symbol = null } = {}) {
-  const report = await survey(fullName, surveyOptions({ budgetMs, knownPlanters }));
+/**
+ * Survey for the scheduled job (no recent/list entry). `plan` and `budget` come from the job's run (lib/job.mjs), so the
+ * survey shares that run's request cap.
+ */
+export async function surveyForJob(fullName, { budgetMs = 12000, mint = null, symbol = null, plan: p = currentPlan(), budget = null, surveyFn = survey } = {}) {
+  const refusedBefore = budget?.refused ?? 0;
+  const report = planNotes(await surveyFn(fullName, surveyOptions({ budgetMs, knownPlanters, ...planOptions(p, budget) })), p, budget, refusedBefore);
   if (mint) report.input = { ...report.input, mint, token: symbol ? { name: '', symbol, linkFoundIn: 'dexscreener' } : null };
   if (!measured(report)) return report;
   try { report.field.id = await indexReport(report); } catch (e) { console.error(`[index] ${e.message}`); }

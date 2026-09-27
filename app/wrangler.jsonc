@@ -1,0 +1,33 @@
+// Cloudflare Workers config for the Starcrop app (the Netlify setup in ../netlify.toml keeps working unchanged).
+// Deploy steps and the free-plan budgets: README.md, "Deploy to Cloudflare Workers".
+{
+  "name": "starcrop",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-01",
+  // nodejs_compat populates process.env from vars and secrets, which is how lib/ reads its keys (as on Netlify)
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "site/dist",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    // the site links only / and #anchors; /404 and /404.html both reach site/404.html
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "starcrop-store",
+      "database_id": "52d2c403-b831-48e9-a767-7e436d6a9fca",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // the one schedule: netlify/functions/survey.mjs (config.schedule), run by worker.mjs scheduled()
+  "triggers": { "crons": ["*/20 * * * *"] },
+  // Workers Free plan budgets (lib/plan.mjs): <= 45 upstream requests per invocation, 12 starred pages per survey.
+  // On Workers Paid set CF_FREE_PLAN to "0" and the survey runs in full.
+  "vars": { "CF_FREE_PLAN": "1" },
+  // @netlify/blobs is never loaded on Cloudflare (D1 is); keep it out of the bundle
+  "alias": { "@netlify/blobs": "./lib/no-netlify-blobs.mjs" },
+  "observability": { "enabled": true }
+}
